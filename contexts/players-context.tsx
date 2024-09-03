@@ -46,8 +46,6 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 		lastname: string,
 		team: string
 	) => {
-		console.log("removeAuctionPlayer");
-		
 		setAuctionPlayers((prevPlayers) =>
 			prevPlayers.filter(
 				(player) =>
@@ -67,11 +65,7 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 		}
 	};
 
-	useEffect(() => {
-		console.log("Auction Players updated!");
-		console.log(auctionPlayers);
-		
-		
+	useEffect(() => {		
 		updateCurrentAuctionPlayer();
 		setCurrentPrice(0);
 		// eslint-disable-next-line react-hooks/exhaustive-deps

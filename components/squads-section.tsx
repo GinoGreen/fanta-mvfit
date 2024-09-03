@@ -8,7 +8,6 @@ import { useSquadsContext } from "@/hooks/use-squads-context";
 interface SquadsSectionProps extends React.HTMLAttributes<HTMLDivElement> {}
 export const SquadsSection = ({ className }: SquadsSectionProps) => {
 	const { squads } = useSquadsContext();
-	console.log(squads);
 	
 	return (
 		<div

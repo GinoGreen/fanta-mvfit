@@ -104,8 +104,6 @@ export function SquadsProvider({ children }: Readonly<SquadsProviderProps>) {
 		currentPrice: number,
 		currentPlayer: Player | null
 	) => {
-		console.log("currentPrice", currentPrice);
-		
 		setSquads((prevSquads) =>
 			prevSquads.map((squad) => {
 				if (squad.name === squadName) {

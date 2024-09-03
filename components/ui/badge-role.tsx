@@ -30,13 +30,14 @@ interface BadgeRoleProps
 	extends React.HTMLAttributes<HTMLDivElement>,
 		VariantProps<typeof badgeRoleVariants> {
 	role: Role;
+	icon?: boolean;
 }
-export const BadgeRole = ({ className, role }: BadgeRoleProps) => {
+export const BadgeRole = ({ className, role, icon = false }: BadgeRoleProps) => {
 	const variant = getRoleName(role) as "Centrocampista" | "Portiere" | "Attaccante" | "Difensore";
 	
 	return (
 		<div className={cn(badgeRoleVariants({ variant, className }))}>
-			<p>{variant}</p>
+			<p>{icon ? role.toString() : variant}</p>
 		</div>
 	);
 };
