@@ -20,7 +20,6 @@ export const CurrentPlayerInfo = ({ className }: CurrentPlayerInfoProps) => {
 					}
 					alt='Artwork'
 					fill
-					layout='fill'
 				/>
 			</div>
 			{currentPlayer && (

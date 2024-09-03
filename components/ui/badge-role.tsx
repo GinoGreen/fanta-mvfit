@@ -33,7 +33,6 @@ interface BadgeRoleProps
 }
 export const BadgeRole = ({ className, role }: BadgeRoleProps) => {
 	const variant = getRoleName(role) as "Centrocampista" | "Portiere" | "Attaccante" | "Difensore";
-	console.log(variant);
 	
 	return (
 		<div className={cn(badgeRoleVariants({ variant, className }))}>
