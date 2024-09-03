@@ -1,15 +1,22 @@
 "use client";
 
 import { useState, createContext } from "react";
-import { Squad } from "@/lib/types/squad";
+import { Player, Squad } from "@/lib/types/squad";
+import { usePlayersContext } from "@/hooks/use-players-context";
 
 interface SquadsProviderProps {
 	children: React.ReactNode;
 }
 
+const MAX_PLAYER = 25;
+
 const defaultContextValue = {
 	squads: [] as Squad[],
-	// changeTenant: (tenantId: number) => {},
+	awardsPlayer: (
+		squadName: string,
+		currentPrice: number,
+		currentPlayer: Player | null
+	) => {},
 };
 
 export const SquadsContext = createContext(defaultContextValue);
@@ -89,13 +96,48 @@ export function SquadsProvider({ children }: Readonly<SquadsProviderProps>) {
 			points: 500,
 		},
 	] as Squad[];
+	const { removeAuctionPlayer } = usePlayersContext();
 	const [squads, setSquads] = useState<Squad[]>(initialSquads);
-	
+
+	const awardsPlayer = (
+		squadName: string,
+		currentPrice: number,
+		currentPlayer: Player | null
+	) => {
+		console.log("currentPrice", currentPrice);
+		
+		setSquads((prevSquads) =>
+			prevSquads.map((squad) => {
+				if (squad.name === squadName) {
+					// Calcola i nuovi valori
+					const updatedPoints = squad.points - currentPrice;
+
+					// Controlla le condizioni
+					if (
+						currentPlayer &&
+						currentPrice > 0 &&
+						updatedPoints >= 0 &&
+						squad.players.length < MAX_PLAYER
+					) {
+						removeAuctionPlayer(
+							currentPlayer.firstname,
+							currentPlayer.lastname,
+							currentPlayer.team
+						);
+						return {
+							...squad,
+							points: updatedPoints, // Aggiorna i punti
+							players: [...squad.players, currentPlayer], // Aggiungi il giocatore
+						};
+					}
+				}
+				return squad; // Ritorna la squadra non modificata
+			})
+		);
+	};
 
 	return (
-		<SquadsContext.Provider
-			value={{ squads }}
-		>
+		<SquadsContext.Provider value={{ squads, awardsPlayer }}>
 			{children}
 		</SquadsContext.Provider>
 	);
