@@ -12,7 +12,7 @@ export const SquadsSection = ({ className }: SquadsSectionProps) => {
 	return (
 		<div
 			className={cn(
-				"w-full h-[calc(100%-(180px+12px))] p-3 rounded-lg bg-secondary flex gap-x-2",
+				"w-full h-[calc(100%-(180px+12px))] p-3 px-2 rounded-lg bg-secondary flex gap-x-2",
 				className
 			)}
 		>

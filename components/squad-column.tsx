@@ -23,7 +23,7 @@ export const SquadColumn = ({ className, squad }: SquadColumnProps) => {
 				className='group rounded-t-lg bg-popover transition-all hover:bg-[#2CA6A4]/70 h-14 border-b-4 border-secondary flex flex-col items-center justify-center cursor-pointer'
 			>
 				<p className='text-center text-sm font-bold'>{squad.name}</p>
-				<p className='text-center text-primary/60 text-xs font-bold group-hover:text-primary transition-all	'>{squad.points}</p>
+				<p className='text-center text-primary/60 text-xs font-bold group-hover:text-primary transition-all'>{squad.points}</p>
 			</div>
 			<ScrollArea className='h-[calc(100%-56px)] rounded-b-lg bg-popover '>
 				<div className='space-y-2 p-1 py-2'>

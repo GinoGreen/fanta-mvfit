@@ -1,11 +1,19 @@
 export interface Squad {
 	coach: string;
 	name: string;
-	players: Player[];
+	players: SquadPlayer[];
 	points: number;
 }
 
-export interface Player {
+export interface SquadPlayer {
+	firstname: string;
+	lastname: string;
+	role: Role;
+	team: string;
+	purchasePrice: number;
+}
+
+export interface AuctionPlayer {
 	firstname: string;
 	lastname: string;
 	role: Role;

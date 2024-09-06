@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, createContext, useEffect } from "react";
-import { Player } from "@/lib/types/squad";
+import { AuctionPlayer } from "@/lib/types/squad";
 import players from "@/api/players.json";
 
 interface PlayersProviderProps {
@@ -9,8 +9,9 @@ interface PlayersProviderProps {
 }
 
 const defaultContextValue = {
-	auctionPlayers: [] as Player[],
-	currentPlayer: null as Player | null,
+	auctionPlayers: [] as AuctionPlayer[],
+	trashedPlayers: [] as AuctionPlayer[],
+	currentPlayer: null as AuctionPlayer | null,
 	updateCurrentAuctionPlayer: () => {},
 	currentPrice: 0 as number,
 	changeCurrentPrice: (price: number) => {},
@@ -20,15 +21,18 @@ const defaultContextValue = {
 		lastname: string,
 		team: string
 	) => {},
+	trashPlayer: (player: AuctionPlayer | null) => {},
+	restorePlayer: (player: AuctionPlayer) => {},
 };
 
 export const PlayersContext = createContext(defaultContextValue);
 
 export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
-	const initialPlayers = players as Player[];
+	const initialPlayers = players as AuctionPlayer[];
 	const [auctionPlayers, setAuctionPlayers] =
-		useState<Player[]>(initialPlayers);
-	const [currentPlayer, setCurrentPlayer] = useState<Player | null>(
+		useState<AuctionPlayer[]>(initialPlayers);
+	const [trashedPlayers, setTrashedPlayers] = useState<AuctionPlayer[]>([]);
+	const [currentPlayer, setCurrentPlayer] = useState<AuctionPlayer | null>(
 		initialPlayers[0]
 	);
 	const [currentPrice, setCurrentPrice] = useState<number>(0);
@@ -38,6 +42,15 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 			setCurrentPlayer(auctionPlayers[0]);
 		} else {
 			setCurrentPlayer(null);
+		}
+	};
+
+	const addAuctionPlayer = (player: AuctionPlayer | null) => {
+		if (player) {
+			setAuctionPlayers((prevAuctionPlayers) => [
+				player,
+				...prevAuctionPlayers,
+			]);
 		}
 	};
 
@@ -58,6 +71,39 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 		);
 	};
 
+	const trashPlayer = (player: AuctionPlayer | null) => {
+		if (player) {
+			setTrashedPlayers((prevTrashedPlayers) => [
+				...prevTrashedPlayers,
+				player,
+			]);
+			removeAuctionPlayer(player.firstname, player.lastname, player.team);
+		}
+	};
+
+	const removeTrashPlayer = (player: AuctionPlayer | null) => {
+		if (player) {
+			setTrashedPlayers((prevTrashedPlayers) =>
+				prevTrashedPlayers.filter(
+					(trashPlayer) =>
+						!(
+							trashPlayer.firstname === player.firstname &&
+							trashPlayer.lastname === player.lastname &&
+							trashPlayer.team === player.team
+						)
+				)
+			);
+		}
+	};
+
+	const restorePlayer = (player: AuctionPlayer) => {
+		console.log("CIAO");
+		
+		removeTrashPlayer(player);
+		addAuctionPlayer(player);
+
+	};
+
 	const changeCurrentPrice = (price: number) => {
 		const result = currentPrice + price;
 		if (result >= 0) {
@@ -65,7 +111,9 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 		}
 	};
 
-	useEffect(() => {		
+	useEffect(() => {
+		console.log("sono dentro");
+		
 		updateCurrentAuctionPlayer();
 		setCurrentPrice(0);
 		// eslint-disable-next-line react-hooks/exhaustive-deps
@@ -81,6 +129,9 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 				changeCurrentPrice,
 				setCurrentPrice,
 				removeAuctionPlayer,
+				trashPlayer,
+				trashedPlayers,
+				restorePlayer,
 			}}
 		>
 			{children}

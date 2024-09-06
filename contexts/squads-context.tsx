@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, createContext } from "react";
-import { Player, Squad } from "@/lib/types/squad";
+import { AuctionPlayer, Role, Squad, SquadPlayer } from "@/lib/types/squad";
 import { usePlayersContext } from "@/hooks/use-players-context";
 
 interface SquadsProviderProps {
@@ -9,13 +9,17 @@ interface SquadsProviderProps {
 }
 
 const MAX_PLAYER = 25;
+const MAX_GK = 3;
+const MAX_DF = 8;
+const MAX_MF = 8;
+const MAX_ST = 6;
 
 const defaultContextValue = {
 	squads: [] as Squad[],
 	awardsPlayer: (
 		squadName: string,
 		currentPrice: number,
-		currentPlayer: Player | null
+		currentPlayer: AuctionPlayer | null
 	) => {},
 };
 
@@ -99,10 +103,30 @@ export function SquadsProvider({ children }: Readonly<SquadsProviderProps>) {
 	const { removeAuctionPlayer } = usePlayersContext();
 	const [squads, setSquads] = useState<Squad[]>(initialSquads);
 
+	const checkPlayerQuantity = (players: SquadPlayer[], newPlayerRole: Role) => {
+		let checkRole = false;
+		switch (newPlayerRole) {
+			case "P":
+				checkRole = players.filter(p => p.role === Role.P).length < MAX_GK
+				break;
+			case "D":
+				checkRole = players.filter(p => p.role === Role.D).length < MAX_DF
+				break;
+			case "C":
+				checkRole = players.filter(p => p.role === Role.C).length < MAX_MF
+				break;
+			case "A":
+				checkRole = players.filter(p => p.role === Role.A).length < MAX_ST
+				break;
+		}
+		return players.length < MAX_PLAYER && checkRole
+
+	} 
+
 	const awardsPlayer = (
 		squadName: string,
 		currentPrice: number,
-		currentPlayer: Player | null
+		currentPlayer: AuctionPlayer | null
 	) => {
 		setSquads((prevSquads) =>
 			prevSquads.map((squad) => {
@@ -115,7 +139,7 @@ export function SquadsProvider({ children }: Readonly<SquadsProviderProps>) {
 						currentPlayer &&
 						currentPrice > 0 &&
 						updatedPoints >= 0 &&
-						squad.players.length < MAX_PLAYER
+						checkPlayerQuantity(squad.players, currentPlayer.role)
 					) {
 						removeAuctionPlayer(
 							currentPlayer.firstname,
@@ -125,7 +149,10 @@ export function SquadsProvider({ children }: Readonly<SquadsProviderProps>) {
 						return {
 							...squad,
 							points: updatedPoints, // Aggiorna i punti
-							players: [...squad.players, currentPlayer], // Aggiungi il giocatore
+							players: [
+								...squad.players,
+								{ ...currentPlayer, purchasePrice: currentPrice },
+							], // Aggiungi il giocatore
 						};
 					}
 				}
