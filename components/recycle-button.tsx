@@ -27,12 +27,12 @@ export const RecycleButton = ({ className }: RecycleButtonProps) => {
 					<FaRecycle />
 				</Button>
 			</DialogTrigger>
-			<DialogContent className='max-h-[80vh]'>
+			<DialogContent className='h-[80vh]'>
 				<DialogHeader>
 					<DialogTitle>Cestino</DialogTitle>
 					<DialogDescription>Lista giocatori cestinati</DialogDescription>
 				</DialogHeader>
-				<ScrollArea className='max-h-[60vh] rounded-b-lg bg-popover '>
+				<ScrollArea className='h-[68vh] rounded-b-lg bg-popover '>
 					<div className='space-y-2 p-1 py-2'>
 						{trashedPlayers.map((player) => (
 							<TrashPlayerLabel
