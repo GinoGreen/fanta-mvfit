@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, createContext, useEffect } from "react";
-import { AuctionPlayer } from "@/lib/types/squad";
+import { AuctionPlayer, Role } from "@/lib/types/squad";
 import players from "@/api/players.json";
 
 interface PlayersProviderProps {
@@ -12,17 +12,17 @@ const defaultContextValue = {
 	auctionPlayers: [] as AuctionPlayer[],
 	trashedPlayers: [] as AuctionPlayer[],
 	currentPlayer: null as AuctionPlayer | null,
-	updateCurrentAuctionPlayer: () => {},
+	updateCurrentAuctionPlayer: (role: Role) => {},
 	currentPrice: 0 as number,
 	changeCurrentPrice: (price: number) => {},
 	setCurrentPrice: (price: number) => {},
-	removeAuctionPlayer: (
-		firstname: string,
-		lastname: string,
-		team: string
-	) => {},
+	removeAuctionPlayer: (id: string) => {},
 	trashPlayer: (player: AuctionPlayer | null) => {},
 	restorePlayer: (player: AuctionPlayer) => {},
+	addAuctionPlayer: (player: AuctionPlayer | null) => {},
+	currentRole: Role.P as Role,
+	changeCurrentRole: (role: Role) => {},
+	nextPlayer: (step: number) => {},
 };
 
 export const PlayersContext = createContext(defaultContextValue);
@@ -31,15 +31,59 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 	const initialPlayers = players as AuctionPlayer[];
 	const [auctionPlayers, setAuctionPlayers] =
 		useState<AuctionPlayer[]>(initialPlayers);
+	const [currentRole, setCurrentRole] = useState<Role>(Role.P);
+
 	const [trashedPlayers, setTrashedPlayers] = useState<AuctionPlayer[]>([]);
 	const [currentPlayer, setCurrentPlayer] = useState<AuctionPlayer | null>(
 		initialPlayers[0]
 	);
 	const [currentPrice, setCurrentPrice] = useState<number>(0);
+	const [currentIndex, setCurrentIndex] = useState<number>(0);
+	const [awarding, setAwarding] = useState<boolean>(false);
+	const [startFromZero, setStartFromZero] = useState<boolean>(true);
+
+	const changeCurrentRole = (role: Role) => {
+		if (auctionPlayers.filter((p) => p.role === role).length > 0) {
+			setCurrentRole(role);
+		}
+	};
+
+	useEffect(() => {
+		updateCurrentAuctionPlayer();
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, [currentRole]);
 
 	const updateCurrentAuctionPlayer = () => {
-		if (auctionPlayers.length > 0) {
-			setCurrentPlayer(auctionPlayers[0]);
+		const tempPlayers = auctionPlayers.filter((p) => p.role === currentRole);
+		if (tempPlayers.length > 0) {
+			setCurrentPlayer(tempPlayers[0]);
+		} else {
+			setCurrentPlayer(null);
+		}
+	};
+
+	const nextPlayer = (step: number = 0) => {
+		const tempPlayers = auctionPlayers.filter((p) => p.role === currentRole);
+		if (tempPlayers.length > 0) {
+			if (!currentPlayer) {
+				setCurrentIndex(0);
+				setCurrentPlayer(tempPlayers[0]);
+				return;
+			}
+
+			if (currentIndex !== -1) {
+				let newIndex = step === 0 ? currentIndex : currentIndex + step;
+				if (newIndex < 0) {
+					newIndex = tempPlayers.length - 1;
+				} else if (newIndex > tempPlayers.length - 1) {
+					newIndex = 0;
+				}
+
+				setCurrentIndex(newIndex);
+				setCurrentPlayer(tempPlayers[newIndex]);
+			} else {
+				setCurrentIndex(0);
+			}
 		} else {
 			setCurrentPlayer(null);
 		}
@@ -54,21 +98,11 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 		}
 	};
 
-	const removeAuctionPlayer = (
-		firstname: string,
-		lastname: string,
-		team: string
-	) => {
+	const removeAuctionPlayer = (id: string) => {
 		setAuctionPlayers((prevPlayers) =>
-			prevPlayers.filter(
-				(player) =>
-					!(
-						player.firstname === firstname &&
-						player.lastname === lastname &&
-						player.team === team
-					)
-			)
+			prevPlayers.filter((player) => !(player.id === id))
 		);
+		setAwarding(true);
 	};
 
 	const trashPlayer = (player: AuctionPlayer | null) => {
@@ -77,7 +111,7 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 				...prevTrashedPlayers,
 				player,
 			]);
-			removeAuctionPlayer(player.firstname, player.lastname, player.team);
+			removeAuctionPlayer(player.id);
 		}
 	};
 
@@ -97,11 +131,8 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 	};
 
 	const restorePlayer = (player: AuctionPlayer) => {
-		console.log("CIAO");
-		
 		removeTrashPlayer(player);
 		addAuctionPlayer(player);
-
 	};
 
 	const changeCurrentPrice = (price: number) => {
@@ -112,9 +143,13 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 	};
 
 	useEffect(() => {
-		console.log("sono dentro");
-		
-		updateCurrentAuctionPlayer();
+		if (awarding) {
+			nextPlayer();
+			setAwarding(false);
+		} else if (startFromZero) {
+			updateCurrentAuctionPlayer();
+			setStartFromZero(false);
+		}
 		setCurrentPrice(0);
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [auctionPlayers]);
@@ -132,6 +167,10 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 				trashPlayer,
 				trashedPlayers,
 				restorePlayer,
+				addAuctionPlayer,
+				currentRole,
+				changeCurrentRole,
+				nextPlayer,
 			}}
 		>
 			{children}

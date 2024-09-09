@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, createContext } from "react";
+import { useState, createContext, useEffect } from "react";
 import { AuctionPlayer, Role, Squad, SquadPlayer } from "@/lib/types/squad";
 import { usePlayersContext } from "@/hooks/use-players-context";
 
@@ -21,6 +21,7 @@ const defaultContextValue = {
 		currentPrice: number,
 		currentPlayer: AuctionPlayer | null
 	) => {},
+	removePlayer: (squadName: string, player: SquadPlayer) => {},
 };
 
 export const SquadsContext = createContext(defaultContextValue);
@@ -34,94 +35,108 @@ export function SquadsProvider({ children }: Readonly<SquadsProviderProps>) {
 			points: 500,
 		},
 		{
-			coach: "Niccoló",
-			name: "test2",
+			coach: "Tony",
+			name: "AS Tronzo",
 			players: [],
 			points: 500,
 		},
 		{
-			coach: "Niccoló",
-			name: "test3",
+			coach: "Carlo",
+			name: "FC Kinesiology",
 			players: [],
 			points: 500,
 		},
 		{
-			coach: "Niccoló",
-			name: "test4",
+			coach: "Emmanuel",
+			name: "Napolethanos",
 			players: [],
 			points: 500,
 		},
 		{
-			coach: "Niccoló",
-			name: "test5",
+			coach: "Simone",
+			name: "adrem evuJ",
 			players: [],
 			points: 500,
 		},
 		{
-			coach: "Niccoló",
-			name: "test6",
+			coach: "Dario",
+			name: "Paris San Gennar",
 			players: [],
 			points: 500,
 		},
 		{
-			coach: "Niccoló",
-			name: "test7",
+			coach: "Marco",
+			name: "Borussia Porkmund",
 			players: [],
 			points: 500,
 		},
 		{
-			coach: "Niccoló",
-			name: "test8",
+			coach: "Ragazzo X",
+			name: "Atletico Lera",
 			players: [],
 			points: 500,
 		},
 		{
-			coach: "Niccoló",
-			name: "test9",
+			coach: "Francesco",
+			name: "Cavallo Pazzo 2.0",
 			players: [],
 			points: 500,
 		},
 		{
-			coach: "Niccoló",
-			name: "test10",
+			coach: "Gennaro",
+			name: "D-Generation-X",
 			players: [],
 			points: 500,
 		},
 		{
-			coach: "Niccoló",
-			name: "test11",
+			coach: "Giovanni",
+			name: "New York City FC",
 			players: [],
 			points: 500,
 		},
 		{
-			coach: "Niccoló",
-			name: "test12",
+			coach: "Leonardo",
+			name: "Verdoliva il colore del mio cuore",
 			players: [],
 			points: 500,
 		},
 	] as Squad[];
 	const { removeAuctionPlayer } = usePlayersContext();
 	const [squads, setSquads] = useState<Squad[]>(initialSquads);
+	const [playerToRemove, setPlayerToRemove] = useState<string | null>(null);
 
-	const checkPlayerQuantity = (players: SquadPlayer[], newPlayerRole: Role) => {
+	const checkPlayerQuantity = (
+		players: SquadPlayer[],
+		newPlayerRole: Role
+	) => {
 		let checkRole = false;
 		switch (newPlayerRole) {
 			case "P":
-				checkRole = players.filter(p => p.role === Role.P).length < MAX_GK
+				checkRole =
+					players.filter((p) => p.role === Role.P).length < MAX_GK;
 				break;
 			case "D":
-				checkRole = players.filter(p => p.role === Role.D).length < MAX_DF
+				checkRole =
+					players.filter((p) => p.role === Role.D).length < MAX_DF;
 				break;
 			case "C":
-				checkRole = players.filter(p => p.role === Role.C).length < MAX_MF
+				checkRole =
+					players.filter((p) => p.role === Role.C).length < MAX_MF;
 				break;
 			case "A":
-				checkRole = players.filter(p => p.role === Role.A).length < MAX_ST
+				checkRole =
+					players.filter((p) => p.role === Role.A).length < MAX_ST;
 				break;
 		}
-		return players.length < MAX_PLAYER && checkRole
+		return players.length < MAX_PLAYER && checkRole;
+	};
 
-	} 
+	useEffect(() => {
+		if (playerToRemove) {
+			removeAuctionPlayer(playerToRemove);
+		}
+	// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, [playerToRemove]);
 
 	const awardsPlayer = (
 		squadName: string,
@@ -141,11 +156,7 @@ export function SquadsProvider({ children }: Readonly<SquadsProviderProps>) {
 						updatedPoints >= 0 &&
 						checkPlayerQuantity(squad.players, currentPlayer.role)
 					) {
-						removeAuctionPlayer(
-							currentPlayer.firstname,
-							currentPlayer.lastname,
-							currentPlayer.team
-						);
+						setPlayerToRemove(currentPlayer.id);
 						return {
 							...squad,
 							points: updatedPoints, // Aggiorna i punti
@@ -161,8 +172,38 @@ export function SquadsProvider({ children }: Readonly<SquadsProviderProps>) {
 		);
 	};
 
+	const removePlayer = (squadName: string, player: SquadPlayer) => {
+		setSquads((prevSquads) =>
+			prevSquads.map((squad) => {
+				if (squad.name === squadName) {
+					// Calcola i nuovi valori
+					const updatedPoints = squad.points + player.purchasePrice;
+
+					// Controlla le condizioni
+
+					return {
+						...squad,
+						points: updatedPoints, // Aggiorna i punti
+						players: [
+							...squad.players.filter(
+								(p) =>
+									!(
+										p.firstname === player.firstname &&
+										p.lastname === player.lastname &&
+										p.role === player.role &&
+										p.team === player.team
+									)
+							),
+						],
+					};
+				}
+				return squad; // Ritorna la squadra non modificata
+			})
+		);
+	};
+
 	return (
-		<SquadsContext.Provider value={{ squads, awardsPlayer }}>
+		<SquadsContext.Provider value={{ squads, awardsPlayer, removePlayer }}>
 			{children}
 		</SquadsContext.Provider>
 	);

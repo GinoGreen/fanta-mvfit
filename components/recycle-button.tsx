@@ -13,7 +13,6 @@ import {
 	DialogTrigger,
 } from "./ui/dialog";
 import { ScrollArea } from "./ui/scroll-area";
-import { AuctionPlayer } from "@/lib/types/squad";
 import { TrashPlayerLabel } from "./trash-player-label";
 
 interface RecycleButtonProps extends React.HTMLAttributes<HTMLDivElement> {}

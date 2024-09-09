@@ -6,6 +6,8 @@ export interface Squad {
 }
 
 export interface SquadPlayer {
+	id: string;
+	image: string;
 	firstname: string;
 	lastname: string;
 	role: Role;
@@ -14,6 +16,8 @@ export interface SquadPlayer {
 }
 
 export interface AuctionPlayer {
+	id: string;
+	image:string;
 	firstname: string;
 	lastname: string;
 	role: Role;
