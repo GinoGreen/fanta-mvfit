@@ -105,6 +105,13 @@ export function SquadsProvider({ children }: Readonly<SquadsProviderProps>) {
 	const [squads, setSquads] = useState<Squad[]>(initialSquads);
 	const [playerToRemove, setPlayerToRemove] = useState<string | null>(null);
 
+	const rolePriority: { [key in Role]: number } = {
+		P: 1, // Priorità più alta
+		D: 2,
+		C: 3,
+		A: 4, // Priorità più bassa
+	};
+
 	const checkPlayerQuantity = (
 		players: SquadPlayer[],
 		newPlayerRole: Role
@@ -131,11 +138,34 @@ export function SquadsProvider({ children }: Readonly<SquadsProviderProps>) {
 		return players.length < MAX_PLAYER && checkRole;
 	};
 
+	const sortPlayers = (players: SquadPlayer[]): SquadPlayer[] => {
+		return players.sort((a, b) => {
+			// Ordina per ruolo con la priorità personalizzata
+			if (rolePriority[a.role] !== rolePriority[b.role]) {
+				return rolePriority[a.role] - rolePriority[b.role];
+			}
+
+			// Ordina per cognome (lastname)
+			if (a.lastname !== b.lastname) {
+				return a.lastname.localeCompare(b.lastname);
+			}
+
+			// Ordina per nome (firstname)
+			if (a.firstname !== b.firstname) {
+				return a.firstname.localeCompare(b.firstname);
+			}
+
+			// Ordina per squadra (team)
+			return a.team.localeCompare(b.team);
+		});
+	};
+
 	useEffect(() => {
 		if (playerToRemove) {
 			removeAuctionPlayer(playerToRemove);
+			setPlayerToRemove(null);
 		}
-	// eslint-disable-next-line react-hooks/exhaustive-deps
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [playerToRemove]);
 
 	const awardsPlayer = (
@@ -157,13 +187,14 @@ export function SquadsProvider({ children }: Readonly<SquadsProviderProps>) {
 						checkPlayerQuantity(squad.players, currentPlayer.role)
 					) {
 						setPlayerToRemove(currentPlayer.id);
+
 						return {
 							...squad,
 							points: updatedPoints, // Aggiorna i punti
-							players: [
+							players: sortPlayers([
 								...squad.players,
 								{ ...currentPlayer, purchasePrice: currentPrice },
-							], // Aggiungi il giocatore
+							]), // Aggiungi il giocatore
 						};
 					}
 				}
@@ -179,22 +210,12 @@ export function SquadsProvider({ children }: Readonly<SquadsProviderProps>) {
 					// Calcola i nuovi valori
 					const updatedPoints = squad.points + player.purchasePrice;
 
-					// Controlla le condizioni
-
 					return {
 						...squad,
 						points: updatedPoints, // Aggiorna i punti
-						players: [
-							...squad.players.filter(
-								(p) =>
-									!(
-										p.firstname === player.firstname &&
-										p.lastname === player.lastname &&
-										p.role === player.role &&
-										p.team === player.team
-									)
-							),
-						],
+						players: sortPlayers([
+							...squad.players.filter((p) => !(p.id === player.id)),
+						]),
 					};
 				}
 				return squad; // Ritorna la squadra non modificata

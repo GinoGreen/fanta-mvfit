@@ -45,13 +45,15 @@ export const PlayerLabel = ({
 			lastname: player.lastname,
 			role: player.role,
 			team: player.team,
+			id: player.id,
+			image: player.image,
 		} as AuctionPlayer;
 		addAuctionPlayer(auctionPlayer);
 	};
 
 	return (
 		<AlertDialog>
-			<AlertDialogTrigger className="w-full">
+			<AlertDialogTrigger className='w-full'>
 				<div
 					className={cn(
 						"bg-secondary/80 rounded-lg h-8 cursor-pointer select-none flex justify-between items-center overflow-hidden pr-1",
@@ -79,14 +81,12 @@ export const PlayerLabel = ({
 				<AlertDialogHeader>
 					<AlertDialogTitle>Sei sicuro?</AlertDialogTitle>
 					<AlertDialogDescription>
-						<p>
-							Stai eliminando il giocatore{" "}
-							<span className='font-bold text-primary'>
-								{player.lastname + " " + player.firstname}
-							</span>{" "}
-							dalla squadra{" "}
-							<span className='font-bold text-primary'>{squadName}</span>
-						</p>
+						Stai eliminando il giocatore{" "}
+						<span className='font-bold text-primary'>
+							{player.lastname + " " + player.firstname}
+						</span>{" "}
+						dalla squadra{" "}
+						<span className='font-bold text-primary'>{squadName}</span>
 					</AlertDialogDescription>
 				</AlertDialogHeader>
 				<AlertDialogFooter>

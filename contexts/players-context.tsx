@@ -10,15 +10,15 @@ interface PlayersProviderProps {
 
 const defaultContextValue = {
 	auctionPlayers: [] as AuctionPlayer[],
-	trashedPlayers: [] as AuctionPlayer[],
+	// trashedPlayers: [] as AuctionPlayer[],
 	currentPlayer: null as AuctionPlayer | null,
 	updateCurrentAuctionPlayer: (role: Role) => {},
 	currentPrice: 0 as number,
 	changeCurrentPrice: (price: number) => {},
 	setCurrentPrice: (price: number) => {},
 	removeAuctionPlayer: (id: string) => {},
-	trashPlayer: (player: AuctionPlayer | null) => {},
-	restorePlayer: (player: AuctionPlayer) => {},
+	// trashPlayer: (player: AuctionPlayer | null) => {},
+	// restorePlayer: (player: AuctionPlayer) => {},
 	addAuctionPlayer: (player: AuctionPlayer | null) => {},
 	currentRole: Role.P as Role,
 	changeCurrentRole: (role: Role) => {},
@@ -33,12 +33,15 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 		useState<AuctionPlayer[]>(initialPlayers);
 	const [currentRole, setCurrentRole] = useState<Role>(Role.P);
 
-	const [trashedPlayers, setTrashedPlayers] = useState<AuctionPlayer[]>([]);
+	// const [trashedPlayers, setTrashedPlayers] = useState<AuctionPlayer[]>([]);
 	const [currentPlayer, setCurrentPlayer] = useState<AuctionPlayer | null>(
 		initialPlayers[0]
 	);
-	const [currentPrice, setCurrentPrice] = useState<number>(0);
+	const [currentPrice, setCurrentPrice] = useState<number>(1);
 	const [currentIndex, setCurrentIndex] = useState<number>(0);
+	const [restoredPlayerIndex, setRestoredPlayerIndex] = useState<
+		number | null
+	>(null);
 	const [awarding, setAwarding] = useState<boolean>(false);
 	const [startFromZero, setStartFromZero] = useState<boolean>(true);
 
@@ -49,6 +52,8 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 	};
 
 	useEffect(() => {
+		setCurrentIndex(0);
+		setRestoredPlayerIndex(null);
 		updateCurrentAuctionPlayer();
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [currentRole]);
@@ -56,6 +61,8 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 	const updateCurrentAuctionPlayer = () => {
 		const tempPlayers = auctionPlayers.filter((p) => p.role === currentRole);
 		if (tempPlayers.length > 0) {
+			console.log(tempPlayers);
+			
 			setCurrentPlayer(tempPlayers[0]);
 		} else {
 			setCurrentPlayer(null);
@@ -91,49 +98,59 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 
 	const addAuctionPlayer = (player: AuctionPlayer | null) => {
 		if (player) {
-			setAuctionPlayers((prevAuctionPlayers) => [
-				player,
-				...prevAuctionPlayers,
-			]);
+			const arr = sortPlayers([player, ...auctionPlayers]);
+			setAuctionPlayers(arr);
+			if (player.role === currentRole) {
+				const index = arr
+					.filter((p) => p.role === player.role)
+					.findIndex((p) => p.id === player.id);
+				setRestoredPlayerIndex(index !== 1 ? index : null);
+				setAwarding(true);
+			}
 		}
 	};
 
 	const removeAuctionPlayer = (id: string) => {
-		setAuctionPlayers((prevPlayers) =>
-			prevPlayers.filter((player) => !(player.id === id))
-		);
+		console.log("id to remove: ", id);
+
+		setAuctionPlayers((prevPlayers) => {
+			const filteredPlayers = prevPlayers.filter(
+				(player) => !(player.id === id)
+			);
+			return sortPlayers(filteredPlayers);
+		});
 		setAwarding(true);
 	};
 
-	const trashPlayer = (player: AuctionPlayer | null) => {
-		if (player) {
-			setTrashedPlayers((prevTrashedPlayers) => [
-				...prevTrashedPlayers,
-				player,
-			]);
-			removeAuctionPlayer(player.id);
-		}
-	};
+	// const trashPlayer = (player: AuctionPlayer | null) => {
+	// 	if (player) {
+	// 		setTrashedPlayers((prevTrashedPlayers) => [
+	// 			...prevTrashedPlayers,
+	// 			player,
+	// 		]);
+	// 		removeAuctionPlayer(player.id);
+	// 	}
+	// };
 
-	const removeTrashPlayer = (player: AuctionPlayer | null) => {
-		if (player) {
-			setTrashedPlayers((prevTrashedPlayers) =>
-				prevTrashedPlayers.filter(
-					(trashPlayer) =>
-						!(
-							trashPlayer.firstname === player.firstname &&
-							trashPlayer.lastname === player.lastname &&
-							trashPlayer.team === player.team
-						)
-				)
-			);
-		}
-	};
+	// const removeTrashPlayer = (player: AuctionPlayer | null) => {
+	// 	if (player) {
+	// 		setTrashedPlayers((prevTrashedPlayers) =>
+	// 			prevTrashedPlayers.filter(
+	// 				(trashPlayer) =>
+	// 					!(
+	// 						trashPlayer.firstname === player.firstname &&
+	// 						trashPlayer.lastname === player.lastname &&
+	// 						trashPlayer.team === player.team
+	// 					)
+	// 			)
+	// 		);
+	// 	}
+	// };
 
-	const restorePlayer = (player: AuctionPlayer) => {
-		removeTrashPlayer(player);
-		addAuctionPlayer(player);
-	};
+	// const restorePlayer = (player: AuctionPlayer) => {
+	// 	removeTrashPlayer(player);
+	// 	addAuctionPlayer(player);
+	// };
 
 	const changeCurrentPrice = (price: number) => {
 		const result = currentPrice + price;
@@ -142,15 +159,46 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 		}
 	};
 
+	const sortPlayers = (players: AuctionPlayer[]) => {
+		return players.sort((a, b) => {
+			// Ordina per ruolo (role)
+			if (a.role !== b.role) {
+				return a.role.localeCompare(b.role);
+			}
+
+			// Ordina per cognome (lastname)
+			if (a.lastname !== b.lastname) {
+				return a.lastname.localeCompare(b.lastname);
+			}
+
+			// Ordina per nome (firstname)
+			if (a.firstname !== b.firstname) {
+				return a.firstname.localeCompare(b.firstname);
+			}
+
+			// Ordina per squadra (team)
+			return a.team.localeCompare(b.team);
+		});
+	};
+
 	useEffect(() => {
 		if (awarding) {
-			nextPlayer();
+			if (
+				restoredPlayerIndex !== null &&
+				currentIndex >= restoredPlayerIndex
+			) {
+				console.log("lol");
+				nextPlayer(+1);
+			} else {
+				nextPlayer();
+			}
 			setAwarding(false);
 		} else if (startFromZero) {
 			updateCurrentAuctionPlayer();
 			setStartFromZero(false);
 		}
-		setCurrentPrice(0);
+		setRestoredPlayerIndex(null);
+		setCurrentPrice(1);
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [auctionPlayers]);
 
@@ -164,9 +212,9 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 				changeCurrentPrice,
 				setCurrentPrice,
 				removeAuctionPlayer,
-				trashPlayer,
-				trashedPlayers,
-				restorePlayer,
+				// trashPlayer,
+				// trashedPlayers,
+				// restorePlayer,
 				addAuctionPlayer,
 				currentRole,
 				changeCurrentRole,
