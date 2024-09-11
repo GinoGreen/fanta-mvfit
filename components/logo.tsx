@@ -15,8 +15,8 @@ export const Logo = ({ className }: LogoProps) => {
 				className='object-cover object-center'
 				src={"/img/logo.png"}
 				alt='Logo MV-Fit'
-				width={100}
-				height={100}
+				width={240}
+				height={240}
 			/>
 		</div>
 	);

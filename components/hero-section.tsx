@@ -4,6 +4,7 @@ import { CurrentPlayerInfo } from "./current-player-info";
 import { PriceHandler } from "./price-handler";
 import { RoleSelector } from "./role-selector";
 import { CharGenerator } from "@/components/char-generator";
+import { Logo } from "./logo";
 
 interface HeroSectionProps extends React.HTMLAttributes<HTMLDivElement> {}
 export const HeroSection = ({ className }: HeroSectionProps) => {
@@ -12,6 +13,7 @@ export const HeroSection = ({ className }: HeroSectionProps) => {
 			className={cn("flex justify-center items-center relative", className)}
 		>
 			<CharGenerator />
+			<Logo className="absolute top-4 right-10" />
 
 			<RoleSelector className='mx-4' />
 			<div
