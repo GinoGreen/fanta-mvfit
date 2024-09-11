@@ -2,7 +2,6 @@
 
 import { useState, createContext, useEffect } from "react";
 import { AuctionPlayer, Role } from "@/lib/types/squad";
-import players from "@/api/players.json";
 
 interface PlayersProviderProps {
 	children: React.ReactNode;
@@ -28,14 +27,12 @@ const defaultContextValue = {
 export const PlayersContext = createContext(defaultContextValue);
 
 export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
-	const initialPlayers = players as AuctionPlayer[];
-	const [auctionPlayers, setAuctionPlayers] =
-		useState<AuctionPlayer[]>(initialPlayers);
+	const [auctionPlayers, setAuctionPlayers] = useState<AuctionPlayer[]>([]);
 	const [currentRole, setCurrentRole] = useState<Role>(Role.P);
 
 	// const [trashedPlayers, setTrashedPlayers] = useState<AuctionPlayer[]>([]);
 	const [currentPlayer, setCurrentPlayer] = useState<AuctionPlayer | null>(
-		initialPlayers[0]
+		null
 	);
 	const [currentPrice, setCurrentPrice] = useState<number>(1);
 	const [currentIndex, setCurrentIndex] = useState<number>(0);
@@ -44,6 +41,7 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 	>(null);
 	const [awarding, setAwarding] = useState<boolean>(false);
 	const [startFromZero, setStartFromZero] = useState<boolean>(true);
+	const [isFirstTime, setIsFirstTime] = useState<boolean>(true);
 
 	const changeCurrentRole = (role: Role) => {
 		if (auctionPlayers.filter((p) => p.role === role).length > 0) {
@@ -60,9 +58,11 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 
 	const updateCurrentAuctionPlayer = () => {
 		const tempPlayers = auctionPlayers.filter((p) => p.role === currentRole);
+		console.log(currentRole);
+
 		if (tempPlayers.length > 0) {
 			console.log(tempPlayers);
-			
+
 			setCurrentPlayer(tempPlayers[0]);
 		} else {
 			setCurrentPlayer(null);
@@ -182,18 +182,65 @@ export function PlayersProvider({ children }: Readonly<PlayersProviderProps>) {
 	};
 
 	useEffect(() => {
+		const fetchData = async () => {
+			try {
+				const response = await fetch(`/api/read-file?type=players`);
+				if (!response.ok) {
+					throw new Error("Network response was not ok");
+				}
+				const data = await response.json();
+				setStartFromZero(true);
+
+				setAuctionPlayers(data);
+			} catch (error) {
+				console.error("Fetch error:", error);
+				throw error;
+			}
+		};
+		fetchData();
+	}, []);
+
+	useEffect(() => {
+		console.log("TEST1", auctionPlayers);
+
+		const updateSquads = async () => {
+			if (auctionPlayers) {
+				try {
+					const response = await fetch("/api/update-file?type=players", {
+						method: "POST",
+						headers: {
+							"Content-Type": "application/json",
+						},
+						body: JSON.stringify(auctionPlayers),
+					});
+					if (!response.ok) {
+						throw new Error("Failed to update players");
+					}
+					const result = await response.json();
+					console.log(result.message); // Opzionale: Gestisci il risultato
+				} catch (error) {
+					console.error("Error:", error);
+				}
+			}
+		};
+		if (!isFirstTime) {
+			updateSquads();
+		} else {
+			setIsFirstTime(false);
+		}
 		if (awarding) {
 			if (
 				restoredPlayerIndex !== null &&
 				currentIndex >= restoredPlayerIndex
 			) {
-				console.log("lol");
 				nextPlayer(+1);
 			} else {
 				nextPlayer();
 			}
 			setAwarding(false);
 		} else if (startFromZero) {
+			console.log("TEST", auctionPlayers);
+
 			updateCurrentAuctionPlayer();
 			setStartFromZero(false);
 		}

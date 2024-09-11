@@ -27,83 +27,10 @@ const defaultContextValue = {
 export const SquadsContext = createContext(defaultContextValue);
 
 export function SquadsProvider({ children }: Readonly<SquadsProviderProps>) {
-	const initialSquads = [
-		{
-			coach: "Niccoló",
-			name: "28 Febbraio",
-			players: [],
-			points: 500,
-		},
-		{
-			coach: "Tony",
-			name: "AS Tronzo",
-			players: [],
-			points: 500,
-		},
-		{
-			coach: "Carlo",
-			name: "FC Kinesiology",
-			players: [],
-			points: 500,
-		},
-		{
-			coach: "Emmanuel",
-			name: "Napolethanos",
-			players: [],
-			points: 500,
-		},
-		{
-			coach: "Simone",
-			name: "adrem evuJ",
-			players: [],
-			points: 500,
-		},
-		{
-			coach: "Dario",
-			name: "Paris San Gennar",
-			players: [],
-			points: 500,
-		},
-		{
-			coach: "Marco",
-			name: "Borussia Porkmund",
-			players: [],
-			points: 500,
-		},
-		{
-			coach: "Ragazzo X",
-			name: "Atletico Lera",
-			players: [],
-			points: 500,
-		},
-		{
-			coach: "Francesco",
-			name: "Cavallo Pazzo 2.0",
-			players: [],
-			points: 500,
-		},
-		{
-			coach: "Gennaro",
-			name: "D-Generation-X",
-			players: [],
-			points: 500,
-		},
-		{
-			coach: "Giovanni",
-			name: "New York City FC",
-			players: [],
-			points: 500,
-		},
-		{
-			coach: "Leonardo",
-			name: "Verdoliva il colore del mio cuore",
-			players: [],
-			points: 500,
-		},
-	] as Squad[];
 	const { removeAuctionPlayer } = usePlayersContext();
-	const [squads, setSquads] = useState<Squad[]>(initialSquads);
+	const [squads, setSquads] = useState<Squad[]>([]);
 	const [playerToRemove, setPlayerToRemove] = useState<string | null>(null);
+	const [isFirstTime, setIsFirstTime] = useState<boolean>(true);
 
 	const rolePriority: { [key in Role]: number } = {
 		P: 1, // Priorità più alta
@@ -167,6 +94,55 @@ export function SquadsProvider({ children }: Readonly<SquadsProviderProps>) {
 		}
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [playerToRemove]);
+
+	useEffect(() => {
+		const updateSquads = async () => {
+			if (squads) {
+				try {
+					const response = await fetch("/api/update-file?type=squads", {
+						method: "POST",
+						headers: {
+							"Content-Type": "application/json",
+						},
+						body: JSON.stringify(squads),
+					});
+					if (!response.ok) {
+						console.log(response.json());
+						
+						throw new Error("Failed to update squads");
+					}
+					const result = await response.json();
+					console.log(result.message); // Opzionale: Gestisci il risultato
+				} catch (error) {
+					console.error("Error:", error);
+				}
+			}
+		};
+
+		if (!isFirstTime) {
+			updateSquads();
+		} else {
+			setIsFirstTime(false);
+		}
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, [squads]);
+
+	useEffect(() => {
+		const fetchData = async () => {
+			try {
+				const response = await fetch(`/api/read-file?type=squads`);
+				if (!response.ok) {
+					throw new Error("Network response was not ok");
+				}
+				const data = await response.json();
+				setSquads(data);
+			} catch (error) {
+				console.error("Fetch error:", error);
+				throw error;
+			}
+		};
+		fetchData();
+	}, []);
 
 	const awardsPlayer = (
 		squadName: string,

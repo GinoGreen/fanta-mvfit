@@ -7,7 +7,7 @@ export default function Home() {
 	return (
 		<PlayersProvider>
 			<SquadsProvider>
-				<main className='p-3 space-y-3 h-full'>
+				<main className='p-3 space-y-3 h-full relative'>
 					<HeroSection />
 					<SquadsSection />
 				</main>

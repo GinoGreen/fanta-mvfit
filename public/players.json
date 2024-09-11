@@ -1,0 +1,4218 @@
+[
+  {
+    "firstname": "Tammy",
+    "lastname": "ABRAHAM",
+    "role": "A",
+    "team": "Milan",
+    "id": "c37ba8ac-d40d-4d20-ad62-005ba4fa7ec3",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ABRAHAM.png?v=130"
+  },
+  {
+    "firstname": "Che",
+    "lastname": "ADAMS",
+    "role": "A",
+    "team": "Torino",
+    "id": "630da08c-ca69-49f1-b7ff-b6ab6081250f",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ADAMS.png?v=130"
+  },
+  {
+    "firstname": "Pontus",
+    "lastname": "ALMQVIST",
+    "role": "A",
+    "team": "Parma",
+    "id": "f7509d71-4edd-434e-9174-fba2e86c7d89",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ALMQVIST.png?v=130"
+  },
+  {
+    "role": "A",
+    "lastname": "ANKEYE",
+    "firstname": "David",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ANKEYE.png?v=130        ",
+    "id": "56b1e9d3-9860-432e-b2a1-c198d5077177"
+  },
+  {
+    "role": "A",
+    "lastname": "ARNAUTOVIC",
+    "firstname": "Marko",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ARNAUTOVIC.png?v=130",
+    "id": "2678f34c-da83-4964-9711-99a95887a96c"
+  },
+  {
+    "role": "A",
+    "lastname": "BANDA",
+    "firstname": "Lameck",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BANDA.png?v=130",
+    "id": "5a553c7c-d322-4a1b-aeb8-8c4890677815"
+  },
+  {
+    "role": "A",
+    "lastname": "BELOTTI",
+    "firstname": "Andrea",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BELOTTI.png?v=130",
+    "id": "2f6c3096-09dc-4b31-9da5-a0b51656b8ed"
+  },
+  {
+    "role": "A",
+    "lastname": "BELTRAN",
+    "firstname": "Lucas",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BELTRAN-L.png?v=130",
+    "id": "e447b29e-79ec-41d6-aede-d66ed8aa67a7"
+  },
+  {
+    "role": "A",
+    "lastname": "BENEDYCZAK",
+    "firstname": "Adrian",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BENEDYCZAK.png?v=130",
+    "id": "363e2ab2-a1dc-4aab-9eb3-c214ddaf211c"
+  },
+  {
+    "role": "A",
+    "lastname": "BONNY",
+    "firstname": "Ange-Yoan",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BONNY.png?v=130",
+    "id": "515b0c04-643f-4150-bc48-3bfa50f7ccf1"
+  },
+  {
+    "role": "A",
+    "lastname": "BRAVO",
+    "firstname": "Iker",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BRAVO.png?v=130      ",
+    "id": "28208c2d-c829-4aa4-a37b-0ba44e69380f"
+  },
+  {
+    "role": "A",
+    "lastname": "BRENNER",
+    "firstname": "Souza da Silva",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BRENNER.png?v=130    ",
+    "id": "f2ac6de1-cd15-44c3-9e64-d15b6fffe1c4"
+  },
+  {
+    "role": "A",
+    "lastname": "BURNETE",
+    "firstname": "Rares",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BURNETE.png?v=130    ",
+    "id": "4cd36f6a-27f2-4ae7-9a07-3222baea49f1"
+  },
+  {
+    "role": "A",
+    "lastname": "CAMARDA",
+    "firstname": "Francesco",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CAMARDA.png?v=130    ",
+    "id": "aaac6a4a-12da-4705-b55d-bbbbfc9cd229"
+  },
+  {
+    "role": "A",
+    "lastname": "CAMBIAGHI",
+    "firstname": "Nicolo'",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CAMBIAGHI.png?v=130",
+    "id": "3edbc5d9-a058-4f30-909a-ffbdc7f20f8e"
+  },
+  {
+    "role": "A",
+    "lastname": "CANCELLIERI",
+    "firstname": "Matteo",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CANCELLIERI.png?v=130",
+    "id": "a5430599-39db-4c1a-9c66-05b347b31df9"
+  },
+  {
+    "role": "A",
+    "lastname": "CAPRARI",
+    "firstname": "Gianluca",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CAPRARI.png?v=130",
+    "id": "ff5fbf18-c587-4308-83fe-9584881bc691"
+  },
+  {
+    "role": "A",
+    "lastname": "CASTELLANOS",
+    "firstname": "Valentin",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CASTELLANOS.png?v=130",
+    "id": "ce5083d6-02e7-4b4f-a21c-de70dc428ab1"
+  },
+  {
+    "role": "A",
+    "lastname": "CASTRO",
+    "firstname": "Santiago",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CASTRO-S.png?v=130",
+    "id": "06dce33b-2628-4039-8266-be7962a682da"
+  },
+  {
+    "role": "A",
+    "lastname": "CERRI",
+    "firstname": "Alberto",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CERRI.png?v=130        ",
+    "id": "356cd2c1-8b4a-46ac-ac4f-432cf9fb33ce"
+  },
+  {
+    "role": "A",
+    "lastname": "CHARPENTIER",
+    "firstname": "Gabriel",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CHARPENTIER.png?v=130  ",
+    "id": "38b51abb-c46d-4ed0-bfd6-1580c91453b4"
+  },
+  {
+    "role": "A",
+    "lastname": "COLOMBO",
+    "firstname": "Lorenzo",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/COLOMBO.png?v=130",
+    "id": "f8f0a415-bed8-40d3-bdd5-f20bbb0c143e"
+  },
+  {
+    "role": "A",
+    "lastname": "CORREA",
+    "firstname": "Joaquin",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CORREA.png?v=130",
+    "id": "656f7927-c618-4770-a74f-cd2869a60e80"
+  },
+  {
+    "role": "A",
+    "lastname": "CRUZ",
+    "firstname": "Juan Manuel",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CRUZ.png?v=130       ",
+    "id": "8688a5e6-0599-4463-b6bf-9e4be03d01ad"
+  },
+  {
+    "role": "A",
+    "lastname": "CUTRONE",
+    "firstname": "Patrick",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CUTRONE.png?v=130",
+    "id": "5222f464-1f3e-4945-b74d-e4c76744cf39"
+  },
+  {
+    "role": "A",
+    "lastname": "DALLINGA",
+    "firstname": "Thijs",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DALLINGA.png?v=130",
+    "id": "63ff57ab-540f-40cb-9c1c-5530e0844b22"
+  },
+  {
+    "role": "A",
+    "lastname": "DAVIS",
+    "firstname": "Keinan",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DAVIS-K.png?v=130   ",
+    "id": "edc7fa38-3927-4543-8ad8-d699a8c623cf"
+  },
+  {
+    "role": "A",
+    "lastname": "DE KETELAERE",
+    "firstname": "Charles",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DE-KETELAERE.png?v=130",
+    "id": "f7f5c9af-e046-49b5-9182-8eef2c24d77f"
+  },
+  {
+    "role": "A",
+    "lastname": "DIA",
+    "firstname": "Boulaye",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DIA.png?v=130      ",
+    "id": "f48d1965-e003-48a5-a7b8-512876ff5284"
+  },
+  {
+    "role": "A",
+    "lastname": "DJURIC",
+    "firstname": "Milan",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DJURIC.png?v=130",
+    "id": "9fa2ce35-0bae-47bf-8f4d-20cf40b10f2a"
+  },
+  {
+    "role": "A",
+    "lastname": "DOMINGUEZ",
+    "firstname": "Benjamin",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DOMINGUEZ-B.png?v=130  ",
+    "id": "f56f0063-3d70-4151-8cfa-716819bffac9"
+  },
+  {
+    "role": "A",
+    "lastname": "DOVBYK",
+    "firstname": "Artem",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DOVBYK.png?v=130",
+    "id": "54037fbd-39c9-45e4-8e11-bdf4d02c1206"
+  },
+  {
+    "role": "A",
+    "lastname": "DYBALA",
+    "firstname": "Paulo",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DYBALA.png?v=130",
+    "id": "fbdc0e41-7315-481e-a1f6-81818e356f3a"
+  },
+  {
+    "role": "A",
+    "lastname": "EKHATOR",
+    "firstname": "Jeff",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/EKHATOR.png?v=130",
+    "id": "9b22dd28-f605-4685-9582-f60ddbc841fe"
+  },
+  {
+    "role": "A",
+    "lastname": "EKONG",
+    "firstname": "Emmanuel",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/NO-CAMPIONCINO.png?v=56     ",
+    "id": "fbf9b4d8-e015-4f3a-9a7f-4d5024cafd98"
+  },
+  {
+    "role": "A",
+    "lastname": "EKUBAN",
+    "firstname": "Caleb",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/EKUBAN.png?v=130",
+    "id": "ef3b741d-99e5-46d1-9e4b-9a009c785cfd"
+  },
+  {
+    "role": "A",
+    "lastname": "ESPOSITO",
+    "firstname": "Sebastiano",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ESPOSITO-SE.png?v=130   ",
+    "id": "39e95e42-bdb3-49a5-91e6-3875a099a30f"
+  },
+  {
+    "role": "A",
+    "lastname": "GABRIELLONI",
+    "firstname": "Alessandro",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GABRIELLONI.png?v=130   ",
+    "id": "e97399af-b40d-452d-a6eb-ab54cdbb6b79"
+  },
+  {
+    "role": "A",
+    "lastname": "GONZALEZ",
+    "firstname": "Nicolas",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GONZALEZ-N.png?v=130",
+    "id": "34ed0a30-aed1-4b6b-b480-5222e7e49672"
+  },
+  {
+    "role": "A",
+    "lastname": "GUDMUNDSSON",
+    "firstname": "Albert",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GUDMUNDSSON-A.png?v=130",
+    "id": "6a90e7d8-8bf3-49bc-a685-53965857440c"
+  },
+  {
+    "role": "A",
+    "lastname": "GYTKJAER",
+    "firstname": "Christian",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GYTKJAER.png?v=130",
+    "id": "f4fe3c15-8095-4c54-b65c-4b631f18270b"
+  },
+  {
+    "role": "A",
+    "lastname": "ISAKSEN",
+    "firstname": "Gustav",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ISAKSEN.png?v=130",
+    "id": "5b3e8e34-7187-4050-a3d0-573fac64d703"
+  },
+  {
+    "role": "A",
+    "lastname": "JASIM",
+    "firstname": "Ali",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/JASIM.png?v=130          ",
+    "id": "d82297c1-8353-45f7-9f9b-cc2f2bf0fdea"
+  },
+  {
+    "role": "A",
+    "lastname": "JOVIC",
+    "firstname": "Luka",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/JOVIC.png?v=130",
+    "id": "2c3ef585-a8c4-423d-9be9-6a71af3fd3e5"
+  },
+  {
+    "role": "A",
+    "lastname": "KARAMOH",
+    "firstname": "Yann",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KARAMOH.png?v=130",
+    "id": "01f978dd-331b-4abe-af70-9af50839947e"
+  },
+  {
+    "role": "A",
+    "lastname": "KEAN",
+    "firstname": "Moise",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KEAN.png?v=130",
+    "id": "611f6277-07fb-43f6-b831-52b1f5091a31"
+  },
+  {
+    "role": "A",
+    "lastname": "KOUAME",
+    "firstname": "' Christian",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KOUAME.png?v=130",
+    "id": "fa1f1565-d815-41c9-8e5d-0d9dcb2f7473"
+  },
+  {
+    "role": "A",
+    "lastname": "KOWALSKI",
+    "firstname": "Mateusz",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/NO-CAMPIONCINO.png?v=56  ",
+    "id": "4caec054-cc66-448a-b6f9-112b62e23bce"
+  },
+  {
+    "role": "A",
+    "lastname": "KRSTOVIC",
+    "firstname": "Nikola",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KRSTOVIC.png?v=130",
+    "id": "db9f7037-1778-4c34-bf2f-1da0a1678f96"
+  },
+  {
+    "role": "A",
+    "lastname": "KVARATSKHELIA",
+    "firstname": "Khvicha",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KVARATSKHELIA.png?v=130",
+    "id": "20b425b4-e83a-451c-bffa-de28e1913438"
+  },
+  {
+    "role": "A",
+    "lastname": "LAPADULA",
+    "firstname": "Gianluca",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LAPADULA.png?v=130",
+    "id": "cfff6039-e1d6-4ac9-92c9-dd950d056248"
+  },
+  {
+    "role": "A",
+    "lastname": "LEAO",
+    "firstname": "Rafael",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LEAO.png?v=130",
+    "id": "c1acd121-258c-4a6a-917c-2cd613f74229"
+  },
+  {
+    "role": "A",
+    "lastname": "LOOKMAN",
+    "firstname": "Ademola",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LOOKMAN.png?v=130",
+    "id": "c16be029-dda4-4ab7-9fca-b34dd0f18c01"
+  },
+  {
+    "role": "A",
+    "lastname": "LUCCA",
+    "firstname": "Lorenzo",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LUCCA.png?v=130",
+    "id": "0bfe455f-5312-4101-81b4-19bde6fe2328"
+  },
+  {
+    "role": "A",
+    "lastname": "LUKAKU",
+    "firstname": "Romelu",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LUKAKU.png?v=130",
+    "id": "a331eb14-cb59-4bc7-aaf1-085271ff17a1"
+  },
+  {
+    "role": "A",
+    "lastname": "LUVUMBO",
+    "firstname": "Sebastiao Zito",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LUVUMBO.png?v=130",
+    "id": "9f16ee2f-39a4-45e1-8bfe-13d8b3a57e6c"
+  },
+  {
+    "role": "A",
+    "lastname": "MARTINEZ",
+    "firstname": "Lautaro",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MARTINEZ-L.png?v=130",
+    "id": "03381673-7e7b-481a-aa64-217fba78543f"
+  },
+  {
+    "role": "A",
+    "lastname": "MBANGULA",
+    "firstname": "Samuel",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MBANGULA.png?v=130    ",
+    "id": "0656fb03-a579-440b-8fa2-31f7423d6eb1"
+  },
+  {
+    "role": "A",
+    "lastname": "MIHAILA",
+    "firstname": "Valentin",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MIHAILA.png?v=130",
+    "id": "8a8f228c-1015-4ece-a8ba-d71b785d1f43"
+  },
+  {
+    "role": "A",
+    "lastname": "MILIK",
+    "firstname": "Arkadiusz",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MILIK.png?v=130",
+    "id": "d438f19a-2a89-43d7-ae7f-bf39b742069b"
+  },
+  {
+    "role": "A",
+    "lastname": "MORATA",
+    "firstname": "Alvaro",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MORATA.png?v=130",
+    "id": "d6d9423a-cf20-4b12-b263-73fac5727d3d"
+  },
+  {
+    "role": "A",
+    "lastname": "MOSQUERA",
+    "firstname": "Daniel",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MOSQUERA.png?v=130",
+    "id": "d98ac27e-c652-440f-b7ad-6fd1c8869a0b"
+  },
+  {
+    "role": "A",
+    "lastname": "MOTA",
+    "firstname": "Dany",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MOTA.png?v=130",
+    "id": "6445ec1b-fc1e-419f-a832-81bf3f14f983"
+  },
+  {
+    "role": "A",
+    "lastname": "MUTANDWA",
+    "firstname": "Kingstone",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MUTANDWA.png?v=130    ",
+    "id": "2a9ad2f3-f02e-4a0f-94aa-2730dbe7b8c8"
+  },
+  {
+    "role": "A",
+    "lastname": "NGONGE",
+    "firstname": "Cyrill",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/NGONGE.png?v=130",
+    "id": "3dd6d086-8155-4b06-abc5-1f788735a721"
+  },
+  {
+    "role": "A",
+    "lastname": "NOSIL",
+    "firstname": "Tijjani",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/NOSLIN.png?v=130",
+    "id": "c980217b-c03c-4c7a-a772-29841c5438d3"
+  },
+  {
+    "role": "A",
+    "lastname": "ODGAARD",
+    "firstname": "Jens",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ODGAARD.png?v=130",
+    "id": "3781cca0-cb37-4af2-a2ff-96c925ba3d42"
+  },
+  {
+    "role": "A",
+    "lastname": "OKAFOR",
+    "firstname": "Noah",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/OKAFOR.png?v=130",
+    "id": "cc1a62d7-6737-4083-9628-dbb44e685648"
+  },
+  {
+    "role": "A",
+    "lastname": "PAVOLETTI",
+    "firstname": "Leonardo",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PAVOLETTI.png?v=130",
+    "id": "9886235b-4847-4556-88b3-da87f0916a4c"
+  },
+  {
+    "role": "A",
+    "lastname": "PEDRO",
+    "firstname": "",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PEDRO.png?v=130",
+    "id": "df66881a-ec59-427d-a94f-6ccf9255420d"
+  },
+  {
+    "role": "A",
+    "lastname": "PELLEGRI",
+    "firstname": "Pietro",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PELLEGRI.png?v=130   ",
+    "id": "9e3227c1-28bb-453d-98ae-acaec2d42bc0"
+  },
+  {
+    "role": "A",
+    "lastname": "PETAGNA",
+    "firstname": "Andrea",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PETAGNA.png?v=130",
+    "id": "311d265a-13d8-411d-951f-123c357d95ae"
+  },
+  {
+    "role": "A",
+    "lastname": "PICCOLI",
+    "firstname": "Roberto",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PICCOLI.png?v=130",
+    "id": "1eb424b7-0d2d-43b7-bba9-7856883074f8"
+  },
+  {
+    "role": "A",
+    "lastname": "PIEROTTI",
+    "firstname": "Santiago",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PIEROTTI.png?v=130   ",
+    "id": "e2da6ac1-8c19-48fc-9fbf-f76462f1b467"
+  },
+  {
+    "role": "A",
+    "lastname": "PINAMONTI",
+    "firstname": "Andrea",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PINAMONTI.png?v=130",
+    "id": "55ad57b3-a86c-46d0-9ff1-2de9a1e71f34"
+  },
+  {
+    "role": "A",
+    "lastname": "PIZARRO",
+    "firstname": "Manuel",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PIZARRO.png?v=130    ",
+    "id": "109ad1c6-ad82-406e-b943-7bfa56f9d6ef"
+  },
+  {
+    "role": "A",
+    "lastname": "POHJANPALO",
+    "firstname": "Joel",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/POHJANPALO.png?v=130    ",
+    "id": "97178ac9-f1b9-4f0a-b90e-decca3e0d421"
+  },
+  {
+    "role": "A",
+    "lastname": "RAIMONDO",
+    "firstname": "Antonio",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/RAIMONDO.png?v=130   ",
+    "id": "f4a56624-92f4-4b89-b590-1cf898b5a8c7"
+  },
+  {
+    "role": "A",
+    "lastname": "RASPADORI",
+    "firstname": "Giacomo",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/RASPADORI.png?v=130",
+    "id": "933f6de0-cf86-4408-9059-1b04f3b76936"
+  },
+  {
+    "role": "A",
+    "lastname": "REBIC",
+    "firstname": "Ante",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/REBIC.png?v=130    ",
+    "id": "4f290150-7b3d-4dce-89ce-c661d6c9faa3"
+  },
+  {
+    "role": "A",
+    "lastname": "RETEGUI",
+    "firstname": "Mateo",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/RETEGUI.png?v=130",
+    "id": "5f3d2059-79f9-4a3d-8725-1da2ac809283"
+  },
+  {
+    "role": "A",
+    "lastname": "ROCHA LIVRAMENTO",
+    "firstname": "Dailon",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ROCHA-LIVRAMENTO.png?v=130   ",
+    "id": "38ce2620-0be9-4eb4-a661-4407798ef419"
+  },
+  {
+    "role": "A",
+    "lastname": "SANABRIA",
+    "firstname": "Antonio",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SANABRIA.png?v=130",
+    "id": "5c3c1afd-6a9f-4ca9-871c-aa99d867aa65"
+  },
+  {
+    "role": "A",
+    "lastname": "SANCHEZ",
+    "firstname": "Alexis",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SANCHEZ.png?v=130",
+    "id": "63187ee2-6f60-425e-923f-5f444adab483"
+  },
+  {
+    "role": "A",
+    "lastname": "SARR",
+    "firstname": "Amin",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SARR-A.png?v=130 ",
+    "id": "363029cd-0f67-4d8e-ba37-196c5ca87911"
+  },
+  {
+    "role": "A",
+    "lastname": "SCAMACCA",
+    "firstname": "Gianluca",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SCAMACCA.png?v=130",
+    "id": "08d4405f-8070-44c9-96f0-aa3845eb1c12"
+  },
+  {
+    "role": "A",
+    "lastname": "SHOMURODOV",
+    "firstname": "Eldor",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SHOMURODOV.png?v=130   ",
+    "id": "2967c1f3-f1ca-43f5-b9c8-4f1148fbeef4"
+  },
+  {
+    "role": "A",
+    "lastname": "SIMEONE",
+    "firstname": "Giovanni",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SIMEONE.png?v=130",
+    "id": "649ce94d-1f97-45aa-a341-8fd10f12b280"
+  },
+  {
+    "role": "A",
+    "lastname": "SOLBAKKEN",
+    "firstname": "Ola",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SOLBAKKEN.png?v=130   ",
+    "id": "f35c2cdf-f9e6-4909-801b-5aaed17e4999"
+  },
+  {
+    "role": "A",
+    "lastname": "SOULE'",
+    "firstname": "Matias",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SOULE.png?v=130",
+    "id": "55d37152-f93b-40b1-bbf7-7eb7257698c0"
+  },
+  {
+    "role": "A",
+    "lastname": "TAREMI",
+    "firstname": "Mehdi",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/TAREMI.png?v=130",
+    "id": "f5646e34-65c1-41e4-8deb-795b2cfabb8f"
+  },
+  {
+    "role": "A",
+    "lastname": "TENGSTEDT",
+    "firstname": "Casper",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/TENGSTEDT.png?v=130",
+    "id": "b8a0983d-a28d-4f85-b1b6-4613f73271c7"
+  },
+  {
+    "role": "A",
+    "lastname": "THAUVIN",
+    "firstname": "Florian",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/THAUVIN.png?v=130",
+    "id": "8f69c05d-229e-4f0c-92ff-74776fb8ebbd"
+  },
+  {
+    "role": "A",
+    "lastname": "THURAM",
+    "firstname": "Marcus",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/THURAM.png?v=130",
+    "id": "0487948f-85ff-42d2-b60d-ca7155b28257"
+  },
+  {
+    "role": "A",
+    "lastname": "VITINHA",
+    "firstname": "Vitor Manuel Carvalho Olivera",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/VITINHA-O.png?v=130",
+    "id": "6066093b-cf8d-4f64-a420-cdabea368823"
+  },
+  {
+    "role": "A",
+    "lastname": "VLAHOVIC",
+    "firstname": "Dusan",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/VLAHOVIC.png?v=130",
+    "id": "49459212-c4e9-4e07-b58c-d3b037852d44"
+  },
+  {
+    "role": "A",
+    "lastname": "YILDIZ",
+    "firstname": "Kenan",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/YILDIZ.png?v=130",
+    "id": "4b2ffcc3-1b3a-4e3f-9cb8-b053bac7a110"
+  },
+  {
+    "role": "A",
+    "lastname": "ZAPATA",
+    "firstname": "Duvan",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ZAPATA-D.png?v=130",
+    "id": "c6af57c6-6410-4b78-b9f6-f689dc457d5f"
+  },
+  {
+    "firstname": "Yacine",
+    "lastname": "ADLI",
+    "role": "C",
+    "team": "Fiorentina",
+    "id": "317de04f-5e26-43e0-9cd0-b396e181695e",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ADLI.png?v=130           "
+  },
+  {
+    "firstname": "Ndary",
+    "lastname": "ADOPO",
+    "role": "C",
+    "team": "Cagliari",
+    "id": "7008bd9b-4da3-4b85-92a9-e83d2d8bb2f7",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ADOPO.png?v=130          "
+  },
+  {
+    "firstname": "Vasilije",
+    "lastname": "ADZIC",
+    "role": "C",
+    "team": "Juventus",
+    "id": "61fbe05a-1fe9-447e-a38c-806b64b1cc05",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ADZIC.png?v=130          "
+  },
+  {
+    "role": "C",
+    "lastname": "AEBISCHER",
+    "firstname": "Michel",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/AEBISCHER.png?v=130",
+    "id": "ddbe5d59-53fc-466f-a8b8-cf2d7354c49d"
+  },
+  {
+    "role": "C",
+    "lastname": "AKPA AKPRO",
+    "firstname": "Jean-Daniel",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/AKPA-AKPRO.png?v=130     ",
+    "id": "671ecda6-bed4-4631-b0e9-dd9ca9b5db1e"
+  },
+  {
+    "role": "C",
+    "lastname": "ALIDOU",
+    "firstname": "Faride",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ALIDOU.png?v=130        ",
+    "id": "de33d232-9cf0-438c-94f5-0daddad43d68"
+  },
+  {
+    "role": "C",
+    "lastname": "ANDERSON",
+    "firstname": "Magnus Kofod",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ANDERSEN-MK.png?v=130     ",
+    "id": "e3d9170c-3966-458a-aee4-e7a892684771"
+  },
+  {
+    "role": "C",
+    "lastname": "ANJORIN",
+    "firstname": "Tino",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ANJORIN.png?v=130        ",
+    "id": "444ac355-0e12-4dde-b90e-d81889a10c96"
+  },
+  {
+    "role": "C",
+    "lastname": "ASLLANI",
+    "firstname": "Kristjan",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ASLLANI.png?v=130",
+    "id": "b442804b-4f7d-437f-a37e-b41ea554cf3d"
+  },
+  {
+    "role": "C",
+    "lastname": "ATTA",
+    "firstname": "Arthur",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ATTA.png?v=130    ",
+    "id": "202b57c9-5566-4407-817b-d9baffe56e9e"
+  },
+  {
+    "role": "C",
+    "lastname": "BADELJ",
+    "firstname": "Milan",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BADELJ.png?v=130",
+    "id": "0ad0d6f8-6d07-4a57-ad0d-7bad3d05051e"
+  },
+  {
+    "role": "C",
+    "lastname": "BALDANZI",
+    "firstname": "Tommaso",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BALDANZI.png?v=130",
+    "id": "a59227f2-e300-4f57-9310-2b952e3c5827"
+  },
+  {
+    "role": "C",
+    "lastname": "BARELLA",
+    "firstname": "Nicolo'",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BARELLA.png?v=130",
+    "id": "5112ca3c-0c35-40f5-bd6d-af4a989d9fbc"
+  },
+  {
+    "role": "C",
+    "lastname": "BASELLI",
+    "firstname": "Daniele",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BASELLI.png?v=130",
+    "id": "38a782df-0c68-471d-8dbc-9927555206cc"
+  },
+  {
+    "role": "C",
+    "lastname": "BELAHYANE",
+    "firstname": "Reda",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BELAHYANE.png?v=130    ",
+    "id": "8edf4ad5-77ca-45d7-b7e5-03b72cb99ce6"
+  },
+  {
+    "role": "C",
+    "lastname": "BELARDINELLI",
+    "firstname": "Luca",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BELARDINELLI.png?v=130    ",
+    "id": "82069f56-2c3e-4e92-99fd-ac2bc60dba84"
+  },
+  {
+    "role": "C",
+    "lastname": "BENNACER",
+    "firstname": "Ismael",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BENNACER.png?v=130",
+    "id": "89be8392-36d4-415a-a1ce-6c635be1f84f"
+  },
+  {
+    "role": "C",
+    "lastname": "BERISHA",
+    "firstname": "Medon",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/NO-CAMPIONCINO.png?v=56 ",
+    "id": "31fd841e-e7a7-4695-b080-80d007c529b8"
+  },
+  {
+    "role": "C",
+    "lastname": "BERNABE'",
+    "firstname": "' Adrian",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BERNABE.png?v=130",
+    "id": "2442cf27-4b28-4d9e-8b7e-f08cbc449a25"
+  },
+  {
+    "role": "C",
+    "lastname": "BIANCO",
+    "firstname": "Alessandro",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BIANCO.png?v=130    ",
+    "id": "e4655043-6f47-43fc-98e5-f46b855d6b68"
+  },
+  {
+    "role": "C",
+    "lastname": "BJARKASON",
+    "firstname": "Bjarki Steinn",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BJARKASON.png?v=130     ",
+    "id": "872edeaa-7fb9-467c-b4f7-9c3d55932a87"
+  },
+  {
+    "role": "C",
+    "lastname": "BOHINEN",
+    "firstname": "Emil",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BOHINEN.png?v=130",
+    "id": "44be998f-16d0-4f76-a111-d1c54ca56437"
+  },
+  {
+    "role": "C",
+    "lastname": "BONDO",
+    "firstname": "Warren",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BONDO.png?v=130",
+    "id": "4807ead4-5e80-421c-8f4f-60972baa8925"
+  },
+  {
+    "role": "C",
+    "lastname": "BOVE",
+    "firstname": "Edoardo",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BOVE.png?v=130    ",
+    "id": "aaaa27eb-55da-4b70-88b3-b77176680fb3"
+  },
+  {
+    "role": "C",
+    "lastname": "BRAUNODER",
+    "firstname": "Matthias",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BRAUNODER.png?v=130    ",
+    "id": "bb211139-bd9e-4e54-a667-b38d27d2217f"
+  },
+  {
+    "role": "C",
+    "lastname": "BRESCIANINI",
+    "firstname": "Marco",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BRESCIANINI.png?v=130",
+    "id": "d4d42886-8aa2-4f0d-91b3-9d06850aa94d"
+  },
+  {
+    "role": "C",
+    "lastname": "BUCHANAN",
+    "firstname": "Tajon",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BUCHANAN-T.png?v=130",
+    "id": "d8bac397-3721-494f-bf15-61ec0cac3a62"
+  },
+  {
+    "role": "C",
+    "lastname": "BUSIO",
+    "firstname": "Gianluca",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BUSIO.png?v=131",
+    "id": "0ae73c6d-7a2e-4a8a-90db-a78c990af81e"
+  },
+  {
+    "role": "C",
+    "lastname": "BYAR",
+    "firstname": "Naim",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BYAR.png?v=130",
+    "id": "e4c5835b-6345-4095-a6bc-c8b528dee9b5"
+  },
+  {
+    "role": "C",
+    "lastname": "CALHANOGLU",
+    "firstname": "Hakan",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CALHANOGLU.png?v=130",
+    "id": "7cfe80c5-01d8-4bf7-8460-1de9c9b1cce3"
+  },
+  {
+    "role": "C",
+    "lastname": "CAMARA",
+    "firstname": "Drissa",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CAMARA-D.png?v=130 ",
+    "id": "24bed61f-366a-4875-907f-8c8c05c9f6c4"
+  },
+  {
+    "role": "C",
+    "lastname": "CASSA",
+    "firstname": "Federico",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/NO-CAMPIONCINO.png?v=56 ",
+    "id": "368f8045-70ab-44fe-ad44-d6b803fd5e3b"
+  },
+  {
+    "role": "C",
+    "lastname": "CASTROVILLI",
+    "firstname": "Gaetano",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CASTROVILLI.png?v=130",
+    "id": "0dacb4e4-bdbb-4376-886d-c930d839e879"
+  },
+  {
+    "role": "C",
+    "lastname": "CATALDI",
+    "firstname": "Danilo",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CATALDI.png?v=130",
+    "id": "a5a9d602-6634-4ca7-a290-53d39ffd6982"
+  },
+  {
+    "role": "C",
+    "lastname": "CHUKWUEZE",
+    "firstname": "Samuel",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CHUKWUEZE.png?v=130",
+    "id": "de87ec42-c971-47b8-8b69-6e38fe146d91"
+  },
+  {
+    "role": "C",
+    "lastname": "CIURRIA",
+    "firstname": "Patrick",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CIURRIA.png?v=130",
+    "id": "ba6586b2-8d87-49ce-82f8-bbb997b69492"
+  },
+  {
+    "role": "C",
+    "lastname": "COLPANI",
+    "firstname": "Andrea",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/COLPANI.png?v=130",
+    "id": "d5461b48-b8b4-4d20-8767-7203bf85feb7"
+  },
+  {
+    "role": "C",
+    "lastname": "CONCEICAO",
+    "firstname": "Francisco",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CONCEICAO.png?v=130   ",
+    "id": "3d0aa350-89b7-411d-a95a-e275ad325281"
+  },
+  {
+    "role": "C",
+    "lastname": "COULIBALY",
+    "firstname": "Lassana",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/COULIBALY-L.png?v=130  ",
+    "id": "f2e52095-368c-47bf-b203-26dedab58b97"
+  },
+  {
+    "role": "C",
+    "lastname": "CRISTANTE",
+    "firstname": "Bryan",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CRISTANTE.png?v=130",
+    "id": "25f523d6-22dd-4a2f-82e2-5be38f160354"
+  },
+  {
+    "role": "C",
+    "lastname": "CRNIGOJ",
+    "firstname": "Domen",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CRNIGOJ.png?v=130",
+    "id": "820a4248-afa0-4393-86e0-7c0b30226560"
+  },
+  {
+    "role": "C",
+    "lastname": "CYPRIEN",
+    "firstname": "Wylan",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CYPRIEN.png?v=130",
+    "id": "cca3390b-230c-444b-99d3-fe78bd91f2a8"
+  },
+  {
+    "role": "C",
+    "lastname": "DA CUNHA",
+    "firstname": "Lucas",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DA-CUNHA.png?v=130",
+    "id": "613a6116-0579-4af4-9ec1-f62e1c473c4c"
+  },
+  {
+    "role": "C",
+    "lastname": "DE ROON",
+    "firstname": "Marten",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DE-ROON.png?v=130",
+    "id": "3064b0c1-6894-4672-a132-138848fe8d67"
+  },
+  {
+    "role": "C",
+    "lastname": "DEIOLA",
+    "firstname": "Alessandro",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DEIOLA.png?v=130",
+    "id": "4552bb82-4938-4267-9795-5dcae89fea27"
+  },
+  {
+    "role": "C",
+    "lastname": "DELE-BASHIRU",
+    "firstname": "Fisayo",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DELE-BASHIRU.png?v=130",
+    "id": "ef63fef0-5a11-4398-a008-3773ccb811bc"
+  },
+  {
+    "role": "C",
+    "lastname": "DOUGLAS LUIZ",
+    "firstname": "Soares de Paulo",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DOUGLAS-LUIZ.png?v=130",
+    "id": "002ab120-b013-47b1-a1a6-283de2710872"
+  },
+  {
+    "role": "C",
+    "lastname": "DOUMBIA",
+    "firstname": "Issa",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DOUMBIA-I.png?v=130   ",
+    "id": "e998cb04-32b0-4e54-9529-c5d926add5c3"
+  },
+  {
+    "role": "C",
+    "lastname": "DUDA",
+    "firstname": "Ondrej",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DUDA.png?v=130",
+    "id": "4d562b37-23cf-4459-8b9f-bc1c73af9d8c"
+  },
+  {
+    "role": "C",
+    "lastname": "DUNCAN",
+    "firstname": "Joseph Alfred",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DUNCAN.png?v=130",
+    "id": "c4546531-abaf-4ead-a45e-96b642e57c05"
+  },
+  {
+    "role": "C",
+    "lastname": "EDERSON D.S.",
+    "firstname": "Ederson da Silva",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/EDERSON-DS.png?v=130",
+    "id": "fe4a3ef7-ce46-4bfe-b70d-2a00a976a752"
+  },
+  {
+    "role": "C",
+    "lastname": "EKKELENKAMP",
+    "firstname": "Jurgen",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/EKKELENKAMP.png?v=130   ",
+    "id": "65b67655-3531-47fe-a142-0f2a1e1022c4"
+  },
+  {
+    "role": "C",
+    "lastname": "EL AZZOUZI",
+    "firstname": "Oussama",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/EL-AZZOUZI.png?v=130",
+    "id": "f41a349d-dde4-4626-a86d-0f3788213536"
+  },
+  {
+    "role": "C",
+    "lastname": "EL SHAARAWY",
+    "firstname": "Stephan",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/EL-SHAARAWY.png?v=130",
+    "id": "47a88904-9f47-45de-97f4-b958d904322f"
+  },
+  {
+    "role": "C",
+    "lastname": "ELLERTSSON",
+    "firstname": "Mikael Egill",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ELLERTSSON.png?v=130   ",
+    "id": "2eec3f6e-2dd4-408a-a266-c31c2e07fae6"
+  },
+  {
+    "role": "C",
+    "lastname": "ENGELHARDT",
+    "firstname": "Yannick",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ENGELHARDT.png?v=130   ",
+    "id": "a747f746-337c-4bf2-b493-bd9d21449021"
+  },
+  {
+    "role": "C",
+    "lastname": "ESTEVEZ",
+    "firstname": "Nahuel",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ESTEVEZ.png?v=130",
+    "id": "3a15825c-5524-4c57-af74-d95830fa8ee6"
+  },
+  {
+    "role": "C",
+    "lastname": "FABBIAN",
+    "firstname": "Giovanni",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/FABBIAN.png?v=130",
+    "id": "5192d2a1-a209-493f-b83c-82e0970da080"
+  },
+  {
+    "role": "C",
+    "lastname": "FADERA",
+    "firstname": "Alieu",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/FADERA.png?v=130    ",
+    "id": "fedf3c09-2143-40a9-bb88-1de493e93672"
+  },
+  {
+    "role": "C",
+    "lastname": "FAGIOLI",
+    "firstname": "Nicolo'",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/FAGIOLI.png?v=130",
+    "id": "17062d2e-2141-48b0-a5f9-6ae11d3eba65"
+  },
+  {
+    "role": "C",
+    "lastname": "FAZZINI",
+    "firstname": "Jacopo",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/FAZZINI.png?v=130",
+    "id": "c56cab61-4957-43d3-aecd-01f0a1643b47"
+  },
+  {
+    "role": "C",
+    "lastname": "FELICI",
+    "firstname": "Mattia",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/FELICI.png?v=130   ",
+    "id": "49b83216-8092-496c-beb1-e27a5f08c118"
+  },
+  {
+    "role": "C",
+    "lastname": "FERGUSON",
+    "firstname": "Lewis",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/FERGUSON.png?v=130",
+    "id": "96340a00-224e-4450-966a-1b4571538ebf"
+  },
+  {
+    "role": "C",
+    "lastname": "FOFANA",
+    "firstname": "Youssouf",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/FOFANA-Y.png?v=130   ",
+    "id": "fed93cad-df5a-4165-8623-45e5d73dfde5"
+  },
+  {
+    "role": "C",
+    "lastname": "FOLORUNSHO",
+    "firstname": "Michael",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/FOLORUNSHO.png?v=130",
+    "id": "e4da2e8a-5a02-4a32-aa5b-9c2fcaa3c459"
+  },
+  {
+    "role": "C",
+    "lastname": "FORSON",
+    "firstname": "Omari",
+    "team": "MONZA",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/FORSON-O.png?v=130   ",
+    "id": "02897a47-e8c8-43d3-9ac7-82f1bf14ce7d"
+  },
+  {
+    "role": "C",
+    "lastname": "FRATTESI",
+    "firstname": "Davide",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/FRATTESI.png?v=130",
+    "id": "d8e288a3-76c3-4b52-a5c6-ef6e99f596a4"
+  },
+  {
+    "role": "C",
+    "lastname": "FRENDRUP",
+    "firstname": "Morten",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/FRENDRUP.png?v=130",
+    "id": "959dde3b-bcd1-4851-a89a-e4e093233983"
+  },
+  {
+    "role": "C",
+    "lastname": "FREULER",
+    "firstname": "Remo",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/FREULER.png?v=130",
+    "id": "573ae07c-f5fb-44b5-9719-9444f878b902"
+  },
+  {
+    "role": "C",
+    "lastname": "GAETANO",
+    "firstname": "Gianluca",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GAETANO.png?v=130",
+    "id": "dd8edac7-7f75-4788-9643-7b5cbe356c3b"
+  },
+  {
+    "role": "C",
+    "lastname": "GAGLIARDINI",
+    "firstname": "Roberto",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GAGLIARDINI.png?v=130",
+    "id": "f3130752-499c-4a56-bcc3-0b6c9e134744"
+  },
+  {
+    "role": "C",
+    "lastname": "GILMOUR",
+    "firstname": "Billy",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GILMOUR.png?v=130   ",
+    "id": "045ec243-f862-4dbe-a5da-defb694dfa94"
+  },
+  {
+    "role": "C",
+    "lastname": "GINEITIS",
+    "firstname": "Gvidas",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GINEITIS.png?v=130   ",
+    "id": "7888a7ff-8320-4a9e-b854-c2b08eba1387"
+  },
+  {
+    "role": "C",
+    "lastname": "GRASSI",
+    "firstname": "Alberto",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GRASSI.png?v=130",
+    "id": "1da1a8f4-eeaf-4934-bfca-2fa21ddb7eb7"
+  },
+  {
+    "role": "C",
+    "lastname": "GUENDOUZI",
+    "firstname": "Matteo",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GUENDOUZI.png?v=130",
+    "id": "6310c937-f2fa-422b-b886-cf2d8f1122f9"
+  },
+  {
+    "role": "C",
+    "lastname": "GYASI",
+    "firstname": "Emmanuel",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GYASI.png?v=130",
+    "id": "c87873f3-e1eb-4e2f-8021-62e407d01988"
+  },
+  {
+    "role": "C",
+    "lastname": "HAAS",
+    "firstname": "Nicolas",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/HAAS.png?v=130",
+    "id": "bdd2672f-f81b-403f-a619-2b0b9bdcdae0"
+  },
+  {
+    "role": "C",
+    "lastname": "HARROUI",
+    "firstname": "Abdou",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/HARROUI.png?v=130",
+    "id": "fd4a9afa-f932-4211-a63f-5e15dbaa5891"
+  },
+  {
+    "role": "C",
+    "lastname": "HASA",
+    "firstname": "Luis",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/HASA.png?v=130   ",
+    "id": "09486d8b-bd96-4a11-a99c-da17958799c6"
+  },
+  {
+    "role": "C",
+    "lastname": "HENDERSON",
+    "firstname": "Liam",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/HENDERSON-L.png?v=130",
+    "id": "88f64a3b-4227-4d26-b670-f531a2ddeaa9"
+  },
+  {
+    "role": "C",
+    "lastname": "HERNANI",
+    "firstname": "",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/HERNANI.png?v=130",
+    "id": "e7b6f510-22c3-4840-82a8-3a461e4593af"
+  },
+  {
+    "role": "C",
+    "lastname": "IKONE'",
+    "firstname": "Jonathan",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/IKONE.png?v=130",
+    "id": "097e0c69-39e4-4454-8196-93a4f7d40703"
+  },
+  {
+    "role": "C",
+    "lastname": "ILIC",
+    "firstname": "Ivan",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ILIC.png?v=130",
+    "id": "887f2e19-b726-44a1-94af-6e7e0a4c7597"
+  },
+  {
+    "role": "C",
+    "lastname": "ILING-JUNIOR",
+    "firstname": "Samuel",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ILING-JUNIOR.png?v=130   ",
+    "id": "583186f4-e511-42a9-b7f3-42f92a2af508"
+  },
+  {
+    "role": "C",
+    "lastname": "JANKTO",
+    "firstname": "Jakub",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/JANKTO.png?v=130",
+    "id": "b539a85c-fb61-48a2-a242-e42b9e483c75"
+  },
+  {
+    "role": "C",
+    "lastname": "KABA",
+    "firstname": "Mohamed",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KABA.png?v=130   ",
+    "id": "f4813909-9839-4ad6-8935-ed47d065b181"
+  },
+  {
+    "role": "C",
+    "lastname": "KARLSSON",
+    "firstname": "Jesper",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KARLSSON.png?v=130",
+    "id": "1f9af9cf-b23c-4c75-bd1a-60ab30d70df7"
+  },
+  {
+    "role": "C",
+    "lastname": "KARLSTROM",
+    "firstname": "Jesper",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KARLSTROM.png?v=130   ",
+    "id": "17bd39ac-5926-4762-8d28-aa29f767f321"
+  },
+  {
+    "role": "C",
+    "lastname": "KASTANOS",
+    "firstname": "Grigoris",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KASTANOS.png?v=130",
+    "id": "4496620f-b22d-483c-9b66-38d3741941f1"
+  },
+  {
+    "role": "C",
+    "lastname": "KEITA",
+    "firstname": "Mandela",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KEITA-M.png?v=130   ",
+    "id": "8ae83462-472d-447d-8aeb-30ad8e7f7e20"
+  },
+  {
+    "role": "C",
+    "lastname": "KONE",
+    "firstname": "Ben Lhassine",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KONE-B.png?v=130   ",
+    "id": "c7ff3ad8-0aca-47b0-8ea5-c6c844fc182c"
+  },
+  {
+    "role": "C",
+    "lastname": "KONE'",
+    "firstname": "Manu Kouadio",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KONE-M.png?v=130   ",
+    "id": "94f80a95-c520-4001-916b-3405bdd3a6f6"
+  },
+  {
+    "role": "C",
+    "lastname": "KOOPMEINERS",
+    "firstname": "Teun",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KOOPMEINERS.png?v=130   ",
+    "id": "440289c1-f1ef-4063-9a2c-2c74016ab942"
+  },
+  {
+    "role": "C",
+    "lastname": "LAZOVIC",
+    "firstname": "Darko",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LAZOVIC.png?v=130",
+    "id": "ce802e02-d249-4ef6-87e8-6bb54ea88d16"
+  },
+  {
+    "role": "C",
+    "lastname": "LE FEE",
+    "firstname": "Enzo",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LE-FEE.png?v=130",
+    "id": "87fdba63-0a46-4f1e-b653-5ad594edca90"
+  },
+  {
+    "role": "C",
+    "lastname": "LIBERALI",
+    "firstname": "Mattia",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LIBERALI.png?v=130   ",
+    "id": "f9817efc-eed3-4198-892f-9a0815d1e0e1"
+  },
+  {
+    "role": "C",
+    "lastname": "LINETTY",
+    "firstname": "Karol",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LINETTY.png?v=130",
+    "id": "81151462-4a4f-4467-8f7e-66bc7cef6c67"
+  },
+  {
+    "role": "C",
+    "lastname": "LOBOTKA",
+    "firstname": "Stanislav",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LOBOTKA.png?v=130",
+    "id": "b071adb1-82a2-4c54-92e6-0e381b55cad5"
+  },
+  {
+    "role": "C",
+    "lastname": "LOCATELLI",
+    "firstname": "Manuel",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LOCATELLI.png?v=130",
+    "id": "29d727c5-a189-477d-aa05-2fbc25f5f502"
+  },
+  {
+    "role": "C",
+    "lastname": "LOFTUS-CHEEK",
+    "firstname": "Ruben",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LOFTUS-CHEEK.png?v=130",
+    "id": "f690ed85-61f1-4eaf-90b1-a9422b6b87d0"
+  },
+  {
+    "role": "C",
+    "lastname": "LOVRIC",
+    "firstname": "Sandi",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LOVRIC.png?v=130",
+    "id": "5eac146a-a32f-47de-a48b-3cfdcb07414b"
+  },
+  {
+    "role": "C",
+    "lastname": "MAKOUMBOU",
+    "firstname": "Antoine",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MAKOUMBOU.png?v=130",
+    "id": "b89dcd55-40cf-4e56-892e-8e7a01948581"
+  },
+  {
+    "role": "C",
+    "lastname": "MALDINI",
+    "firstname": "Daniel",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MALDINI.png?v=130",
+    "id": "bc5271c2-4046-42f2-9265-1393f4dba88e"
+  },
+  {
+    "role": "C",
+    "lastname": "MALEH",
+    "firstname": "Youssef",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MALEH.png?v=130",
+    "id": "c318b0d5-4395-4a22-9482-2278238566b7"
+  },
+  {
+    "role": "C",
+    "lastname": "MALINOVSKIY",
+    "firstname": "Ruslan",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MALINOVSKYI.png?v=130",
+    "id": "d9ad5f75-26f4-487d-823f-2064ca147492"
+  },
+  {
+    "role": "C",
+    "lastname": "MAN",
+    "firstname": "Dennis",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MAN.png?v=130",
+    "id": "2146f352-95ab-451b-a0a5-870e55f84613"
+  },
+  {
+    "role": "C",
+    "lastname": "MANDRAGORA",
+    "firstname": "Rolando",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MANDRAGORA.png?v=130",
+    "id": "642b41e7-cf46-4305-a404-0873e2699fd7"
+  },
+  {
+    "role": "C",
+    "lastname": "MANZONI",
+    "firstname": "Alberto",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/NO-CAMPIONCINO.png?v=56",
+    "id": "3db5fa0f-78be-47b7-84ac-7c22492878d4"
+  },
+  {
+    "role": "C",
+    "lastname": "MARCHWINSKI",
+    "firstname": "Filip",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MARCHWINSKI.png?v=130   ",
+    "id": "37e88961-e17d-42c0-9044-6ebea7bb2aa8"
+  },
+  {
+    "role": "C",
+    "lastname": "MARIN",
+    "firstname": "Razvan",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MARIN.png?v=130",
+    "id": "1c672824-08cf-4abe-9bbc-e4c1ab8b7ca2"
+  },
+  {
+    "role": "C",
+    "lastname": "MAZZITELLI",
+    "firstname": "Luca",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MAZZITELLI.png?v=130",
+    "id": "1f3e3710-c516-48d6-90c8-b47ca0b33b33"
+  },
+  {
+    "role": "C",
+    "lastname": "MCKENNIE",
+    "firstname": "Weston",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MCKENNIE.png?v=130",
+    "id": "fb9f2ecf-c48f-41b6-933c-7837413d894b"
+  },
+  {
+    "role": "C",
+    "lastname": "MCTOMINAY",
+    "firstname": "Scott",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MCTOMINAY.png?v=130",
+    "id": "1a8e16d5-3a2c-4256-b01b-4e6b1b661569"
+  },
+  {
+    "role": "C",
+    "lastname": "MESSIAS",
+    "firstname": "Junior",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MESSIAS.png?v=130",
+    "id": "e59079df-335e-4e50-b032-9545135f2fa2"
+  },
+  {
+    "role": "C",
+    "lastname": "MIRETTI",
+    "firstname": "Fabio",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MIRETTI.png?v=130",
+    "id": "ad18b955-86d3-4dfe-94bb-c836eea1e84c"
+  },
+  {
+    "role": "C",
+    "lastname": "MKHITARYAN",
+    "firstname": "Henrikh",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MKHITARYAN.png?v=130",
+    "id": "74849a78-d245-4fe7-9f0c-55f2adcf9e94"
+  },
+  {
+    "role": "C",
+    "lastname": "MORO",
+    "firstname": "Nikola",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MORO-N.png?v=130",
+    "id": "a26b412e-94f7-45b2-bde0-53c3c05bee9e"
+  },
+  {
+    "role": "C",
+    "lastname": "MUSAH",
+    "firstname": "Yunus",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MUSAH.png?v=130",
+    "id": "51e4c6c9-7598-4ffc-82b8-710a4fa6edba"
+  },
+  {
+    "role": "C",
+    "lastname": "NDOYE",
+    "firstname": "Dan",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/NDOYE.png?v=130",
+    "id": "8ecc6e82-25d9-4308-94ff-755ad5c01040"
+  },
+  {
+    "role": "C",
+    "lastname": "NERES",
+    "firstname": "David",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/NERES.png?v=130",
+    "id": "c5512cb1-077c-4a5f-a2f3-6961c9d616fe"
+  },
+  {
+    "role": "C",
+    "lastname": "NICOLUSSI CAVIGLIA",
+    "firstname": "Hans",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/NICOLUSSI-CAVIGLIA.png?v=130   ",
+    "id": "0aa8378c-d252-47fa-96df-f9fd319f64a6"
+  },
+  {
+    "role": "C",
+    "lastname": "ORISTANIO",
+    "firstname": "Gaetano Pio",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ORISTANIO.png?v=130",
+    "id": "dca40b11-7e10-4b1b-8c3e-cb170957beee"
+  },
+  {
+    "role": "C",
+    "lastname": "ORSOLINI",
+    "firstname": "Riccardo",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ORSOLINI.png?v=130",
+    "id": "f82448cc-56bf-4a72-8254-5b47ca0031ed"
+  },
+  {
+    "role": "C",
+    "lastname": "OUDIN",
+    "firstname": "Remi",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/OUDIN.png?v=130",
+    "id": "95bda10c-c0d3-448c-937a-2b222400a10f"
+  },
+  {
+    "role": "C",
+    "lastname": "PAREDES",
+    "firstname": "Leandro",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PAREDES.png?v=130",
+    "id": "4f5c64e0-9f75-44cc-8c4c-5081e23eecfd"
+  },
+  {
+    "role": "C",
+    "lastname": "PASALIC",
+    "firstname": "Mario",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PASALIC.png?v=130",
+    "id": "570b2d7e-9329-4e9a-ad78-fca75eaf4f71"
+  },
+  {
+    "role": "C",
+    "lastname": "PAYERO",
+    "firstname": "Martin",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PAYERO.png?v=130",
+    "id": "573ebf01-13df-4c7e-a03c-3e014877508d"
+  },
+  {
+    "role": "C",
+    "lastname": "PAZ",
+    "firstname": "Nico",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PAZ-N.png?v=130   ",
+    "id": "1926af01-13ad-4485-b253-b9ca7a65c85f"
+  },
+  {
+    "role": "C",
+    "lastname": "PELLEGRINI",
+    "firstname": "Lorenzo",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PELLEGRINI-LO.png?v=130",
+    "id": "f8e5ddc8-ae36-4822-b853-8dd32b162481"
+  },
+  {
+    "role": "C",
+    "lastname": "PERRONE",
+    "firstname": "Maximo",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PERRONE.png?v=130",
+    "id": "161f79c4-cba9-4b98-a31a-78bc25c19ce3"
+  },
+  {
+    "role": "C",
+    "lastname": "PESSINA",
+    "firstname": "Matteo",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PESSINA.png?v=130",
+    "id": "cc1a0df7-ba89-4d52-9556-0821a2e146c3"
+  },
+  {
+    "role": "C",
+    "lastname": "PIERRET",
+    "firstname": "Balthazar",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PIERRET.png?v=130",
+    "id": "4cc42afa-02fd-4192-af16-2b5f27019042"
+  },
+  {
+    "role": "C",
+    "lastname": "PISILLI",
+    "firstname": "Niccolo",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PISILLI.png?v=130   ",
+    "id": "4d803245-ae67-4eb5-adb7-a8ee401e7e91"
+  },
+  {
+    "role": "C",
+    "lastname": "POBEGA",
+    "firstname": "Tommaso",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/POBEGA.png?v=130   ",
+    "id": "eafe25e1-5deb-404e-afea-397f74fd9bff"
+  },
+  {
+    "role": "C",
+    "lastname": "POLITANO",
+    "firstname": "Matteo",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/POLITANO.png?v=130",
+    "id": "ebcbe0bf-917a-4353-8bc0-16f05ccd33da"
+  },
+  {
+    "role": "C",
+    "lastname": "PRATI",
+    "firstname": "Matteo",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PRATI.png?v=130",
+    "id": "c2371642-4914-4c0b-9d31-64fc10808458"
+  },
+  {
+    "role": "C",
+    "lastname": "PULISIC",
+    "firstname": "Christian",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PULISIC.png?v=130",
+    "id": "6a99d377-b978-4b6c-8914-0515a78baed4"
+  },
+  {
+    "role": "C",
+    "lastname": "RAFIA",
+    "firstname": "Hamza",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/RAFIA.png?v=130",
+    "id": "d870e732-76e6-4c47-9e8d-bede654601e6"
+  },
+  {
+    "role": "C",
+    "lastname": "RAMADANI",
+    "firstname": "Ylber",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/RAMADANI.png?v=130",
+    "id": "06167bfe-9c0f-4b68-a863-0196974f153f"
+  },
+  {
+    "role": "C",
+    "lastname": "REIJNDERS",
+    "firstname": "Tijjani",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/REIJNDERS.png?v=130",
+    "id": "c984e834-e863-496f-a27c-05a390a677c6"
+  },
+  {
+    "role": "C",
+    "lastname": "RICCI",
+    "firstname": "Samuele",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/RICCI-S.png?v=130",
+    "id": "8fad27eb-cb3c-46f3-a8e0-87f66176ab26"
+  },
+  {
+    "role": "C",
+    "lastname": "RICHARDSON",
+    "firstname": "Amir",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/RICHARDSON.png?v=130   ",
+    "id": "9c06b191-f1ab-4d3b-8bf2-2e224aa5018f"
+  },
+  {
+    "role": "C",
+    "lastname": "ROVELLA",
+    "firstname": "Nicolo",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ROVELLA.png?v=130",
+    "id": "86fa1272-ad02-40bb-ba09-66775e77f865"
+  },
+  {
+    "role": "C",
+    "lastname": "RUI",
+    "firstname": "Modesto",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/RUI-MODESTO.png?v=130   ",
+    "id": "adaf1f18-e790-4f9b-9d09-add2f5b403b6"
+  },
+  {
+    "role": "C",
+    "lastname": "SAELEMAEKERS",
+    "firstname": "Alexis",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SAELEMAEKERS.png?v=130   ",
+    "id": "dd3ec271-6e19-4073-a1dd-be651973711c"
+  },
+  {
+    "role": "C",
+    "lastname": "SAMARDZIC",
+    "firstname": "Lazar",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SAMARDZIC.png?v=130   ",
+    "id": "abd6f1aa-c1bf-4a35-b532-cb65a48e9bf4"
+  },
+  {
+    "role": "C",
+    "lastname": "SENSI",
+    "firstname": "Stefano",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SENSI.png?v=130",
+    "id": "7b54589b-a0ad-4319-beec-36e672d19a80"
+  },
+  {
+    "role": "C",
+    "lastname": "SERDAR",
+    "firstname": "Suat",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SERDAR.png?v=130   ",
+    "id": "a02f1b9c-4537-4a6e-9c9c-122132efde93"
+  },
+  {
+    "role": "C",
+    "lastname": "SILVA",
+    "firstname": "DANI",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DANI-SILVA.png?v=130  ",
+    "id": "8f8af2c1-63ab-4417-bdbf-d10d72ca0145"
+  },
+  {
+    "role": "C",
+    "lastname": "SOHM",
+    "firstname": "Simon",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SOHM.png?v=130   ",
+    "id": "a04144d8-217a-40d7-94a9-6ca85adbd925"
+  },
+  {
+    "role": "C",
+    "lastname": "SOTTIL",
+    "firstname": "Riccardo",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SOTTIL.png?v=130",
+    "id": "85952624-bd5c-4798-a6ef-4f918d40a48a"
+  },
+  {
+    "role": "C",
+    "lastname": "STREFEZZA",
+    "firstname": "Gabriel",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/STREFEZZA.png?v=130",
+    "id": "a2776896-9f07-45a1-8af2-23c799cb6785"
+  },
+  {
+    "role": "C",
+    "lastname": "SULEMANA",
+    "firstname": "Ibrahim",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SULEMANA-I.png?v=130",
+    "id": "0c82f7ac-d1f7-40bd-baaf-1b676077149b"
+  },
+  {
+    "role": "C",
+    "lastname": "SUSLOV",
+    "firstname": "Tomas",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SUSLOV.png?v=130",
+    "id": "6b72b298-6e01-4073-bcb8-9a59166aa907"
+  },
+  {
+    "role": "C",
+    "lastname": "TAMEZE",
+    "firstname": "Adrien",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/TAMEZE.png?v=130",
+    "id": "4e74aff8-0526-4bad-8d10-f9d13d2cb979"
+  },
+  {
+    "role": "C",
+    "lastname": "TCHAOUNA",
+    "firstname": "Loum",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/TCHAOUNA.png?v=130",
+    "id": "b25185be-4c5b-437c-9cb3-b2016f2d4090"
+  },
+  {
+    "role": "C",
+    "lastname": "TETE MORENTE",
+    "firstname": "Oliva Josè Antonio",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/TETE-MORENTE.png?v=130",
+    "id": "2a767435-9052-4600-8304-4b6bca70e209"
+  },
+  {
+    "role": "C",
+    "lastname": "THORSBY",
+    "firstname": "Morten",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/THORSBY.png?v=130",
+    "id": "71056d7c-184e-4ef2-81b8-2953876854c1"
+  },
+  {
+    "role": "C",
+    "lastname": "THURAM",
+    "firstname": "Khephren",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/THURAM-K.png?v=130",
+    "id": "61f4a14d-cdbc-498e-9996-6c69abf646b8"
+  },
+  {
+    "role": "C",
+    "lastname": "URBANSKI",
+    "firstname": "Kacper",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/URBANSKI.png?v=130   ",
+    "id": "9be3c924-24bf-4b41-ae82-47bbe6d5016c"
+  },
+  {
+    "role": "C",
+    "lastname": "VALOTI",
+    "firstname": "Mattia",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/VALOTI.png?v=130",
+    "id": "664bed12-52ff-4939-aa20-c2869066eaf8"
+  },
+  {
+    "role": "C",
+    "lastname": "VECINO",
+    "firstname": "Matias",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/VECINO.png?v=130",
+    "id": "2cf5804f-63d9-4333-9e67-66fc681dad2b"
+  },
+  {
+    "role": "C",
+    "lastname": "VERDI",
+    "firstname": "Simone",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/VERDI.png?v=130",
+    "id": "20e0356e-feac-43e5-adc8-f7b9cd6c98c1"
+  },
+  {
+    "role": "C",
+    "lastname": "VIGNATO",
+    "firstname": "Samuele",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/VIGNATO-S.png?v=130",
+    "id": "c5b30bb2-15d4-4af2-881e-3b9249056c74"
+  },
+  {
+    "role": "C",
+    "lastname": "VIOLA",
+    "firstname": "Nicolas",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/VIOLA.png?v=130",
+    "id": "a66ab6b8-a26e-4c5c-a7f7-f2da716b8bbe"
+  },
+  {
+    "role": "C",
+    "lastname": "VLASIC",
+    "firstname": "Nikola",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/VLASIC.png?v=130",
+    "id": "68b9b9b0-704d-48b4-82e5-289744dc202e"
+  },
+  {
+    "role": "C",
+    "lastname": "VOS",
+    "firstname": "Silvano",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/VOS.png?v=130   ",
+    "id": "fe89af1b-48a4-45c6-a1c1-1ffda417741e"
+  },
+  {
+    "role": "C",
+    "lastname": "WEAH",
+    "firstname": "Timothy",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/WEAH.png?v=130",
+    "id": "43911bff-3b61-4703-860d-5aab49967717"
+  },
+  {
+    "role": "C",
+    "lastname": "YEBOAH",
+    "firstname": "John",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/YEBOAH-J.png?v=130   ",
+    "id": "020c4dc7-54e7-4742-ae02-49e937d69f8c"
+  },
+  {
+    "role": "C",
+    "lastname": "ZACCAGNI",
+    "firstname": "Mattia",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ZACCAGNI.png?v=130",
+    "id": "7f206d70-989c-44ab-8a56-81d316a38cfc"
+  },
+  {
+    "role": "C",
+    "lastname": "ZAMBO ANGUISSA",
+    "firstname": "Andrè",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ZAMBO-ANGUISSA.png?v=130",
+    "id": "6426733b-0d6a-4e9f-886c-07db9ca6f92c"
+  },
+  {
+    "role": "C",
+    "lastname": "ZANIOLO",
+    "firstname": "Nicolo'",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ZANIOLO.png?v=130",
+    "id": "2b191488-41d0-4293-adbe-d318234ac13f"
+  },
+  {
+    "role": "C",
+    "lastname": "ZARRAGA",
+    "firstname": "Oier",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ZARRAGA.png?v=130",
+    "id": "f15c469f-6396-4822-97ae-582cf5c500c4"
+  },
+  {
+    "role": "C",
+    "lastname": "ZERBIN",
+    "firstname": "Alessio",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ZERBIN.png?v=130",
+    "id": "3cd8f1fc-e108-4a2d-a886-34ff6ecf2222"
+  },
+  {
+    "role": "C",
+    "lastname": "ZEROLI",
+    "firstname": "Kevin",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ZEROLI.png?v=130   ",
+    "id": "ed1454d6-8d35-4f1c-9080-ead60088e302"
+  },
+  {
+    "role": "C",
+    "lastname": "ZIELINSKI",
+    "firstname": "Piotor",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ZIELINSKI.png?v=130",
+    "id": "3d6c89ac-c76a-4407-86f4-f09be8998878"
+  },
+  {
+    "role": "C",
+    "lastname": "ZURKOWSKI",
+    "firstname": "Szymon",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ZURKOWSKI.png?v=130",
+    "id": "76a7b364-baf9-4ad4-9576-5059025249b0"
+  },
+  {
+    "firstname": "Saud",
+    "lastname": "ABDULHAMID",
+    "role": "D",
+    "team": "Roma",
+    "id": "3abf6e8a-fa99-4505-a8bd-ed2a59e35fec",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ABDULHAMID.png?v=130"
+  },
+  {
+    "firstname": "Francesco",
+    "lastname": "ACERBI",
+    "role": "D",
+    "team": "Inter",
+    "id": "4e72100d-82b4-49d4-b75c-23b74e9e3054",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ACERBI.png?v=130"
+  },
+  {
+    "firstname": "Giorgio",
+    "lastname": "ALTARE",
+    "role": "D",
+    "team": "Venezia",
+    "id": "2f7f4a28-1d87-43c3-b5f9-e1063378e786",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ALTARE.png?v=130"
+  },
+  {
+    "role": "D",
+    "lastname": "ANGELINO",
+    "firstname": "Jose",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ANGELINO.png?v=130",
+    "id": "6ac31d29-1f29-4d8a-a741-edc9084dd19c"
+  },
+  {
+    "role": "D",
+    "lastname": "AUGELLO",
+    "firstname": "Tommaso",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/AUGELLO.png?v=130",
+    "id": "3560f93a-61fc-4a7b-9fe5-d160008c2c9a"
+  },
+  {
+    "role": "D",
+    "lastname": "AZZI",
+    "firstname": "Paulo",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/AZZI.png?v=130",
+    "id": "87a541be-3d0e-4a1b-bc55-fb6a24abc073"
+  },
+  {
+    "role": "D",
+    "lastname": "BALOGH",
+    "firstname": "Botond",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BALOGH.png?v=130",
+    "id": "bc315db5-4ea8-499b-b420-81348692a2aa"
+  },
+  {
+    "role": "D",
+    "lastname": "BANI",
+    "firstname": "Mattia",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BANI.png?v=130",
+    "id": "0161fa09-0ac3-4a2a-82b8-cb42a65569e3"
+  },
+  {
+    "role": "D",
+    "lastname": "BARBA",
+    "firstname": "Federico",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BARBA.png?v=130",
+    "id": "1c73c7bf-e093-41be-942e-7e93980bb076"
+  },
+  {
+    "role": "D",
+    "lastname": "BASCHIROTTO",
+    "firstname": "Federico",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BASCHIROTTO.png?v=130",
+    "id": "4e9e5bca-2b3d-40d5-ac8a-e3e9a86503b7"
+  },
+  {
+    "role": "D",
+    "lastname": "BASTONI",
+    "firstname": "Alessandro",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BASTONI.png?v=130",
+    "id": "f6976edf-92e9-4d90-96e5-22b3a2c8f9d7"
+  },
+  {
+    "role": "D",
+    "lastname": "BELLANOVA",
+    "firstname": "Raoul",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BELLANOVA.png?v=130",
+    "id": "1742c50a-649a-4b9c-87ef-4263ede03112"
+  },
+  {
+    "role": "D",
+    "lastname": "BEUKEMA",
+    "firstname": "Sam",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BEUKEMA.png?v=130",
+    "id": "a2462ef1-c5ee-42e6-af55-16dbd971f0e3"
+  },
+  {
+    "role": "D",
+    "lastname": "BIJOL",
+    "firstname": "Jaka",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BIJOL.png?v=130",
+    "id": "daf1f14c-77d4-4283-abcb-e962764f751b"
+  },
+  {
+    "role": "D",
+    "lastname": "BIRAGHI",
+    "firstname": "Cristiano",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BIRAGHI.png?v=130",
+    "id": "a5166e71-4a37-4ed5-b1ea-51bb3c514b2d"
+  },
+  {
+    "role": "D",
+    "lastname": "BIRINDELLI",
+    "firstname": "Samuele",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BIRINDELLI.png?v=130",
+    "id": "7b43eb4e-43bb-41e2-8fed-29f16b2840c5"
+  },
+  {
+    "role": "D",
+    "lastname": "BISSECK",
+    "firstname": "Yann Aurel",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BISSECK.png?v=130",
+    "id": "d9a17cda-8077-410e-97e9-57c2670bea88"
+  },
+  {
+    "role": "D",
+    "lastname": "BONIFAZI",
+    "firstname": "Kevin",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BONIFAZI.png?v=130",
+    "id": "4a3515e0-2ac0-428f-9694-b252844e87f8"
+  },
+  {
+    "role": "D",
+    "lastname": "BRADARIC",
+    "firstname": "Domagoj",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BRADARIC.png?v=130",
+    "id": "8fce6235-2e2e-42c8-aeb8-5d5b1a0db4b3"
+  },
+  {
+    "role": "D",
+    "lastname": "BREMER",
+    "firstname": "Gleison Silva Nascimento",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BREMER.png?v=130",
+    "id": "9611462f-4270-47db-b7d5-bf6ba55dc998"
+  },
+  {
+    "role": "D",
+    "lastname": "BUONGIORNO",
+    "firstname": "Alessandro",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BUONGIORNO.png?v=130",
+    "id": "e505ee34-5e3c-46b1-aa57-b66b3afc7127"
+  },
+  {
+    "role": "D",
+    "lastname": "CABAL",
+    "firstname": "Juan",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CABAL.png?v=130",
+    "id": "caaf2c0e-4b15-449c-99c8-46d3f78acf8c"
+  },
+  {
+    "role": "D",
+    "lastname": "CACACE",
+    "firstname": "Liberato",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CACACE.png?v=130",
+    "id": "3ae3ac7c-8127-4f14-a29a-ceee7c7ade99"
+  },
+  {
+    "role": "D",
+    "lastname": "CALABRIA",
+    "firstname": "Davide",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CALABRIA.png?v=130",
+    "id": "3297e7e6-fc6a-47bb-90bc-1c8225da4f14"
+  },
+  {
+    "role": "D",
+    "lastname": "CALDIROLA",
+    "firstname": "Luca",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CALDIROLA.png?v=130",
+    "id": "32239b0e-d933-42b3-8a26-68f07fe72f85"
+  },
+  {
+    "role": "D",
+    "lastname": "CAMBIASO",
+    "firstname": "Andrea",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CAMBIASO.png?v=130",
+    "id": "125fa6d4-e860-4682-8e65-7254170d1702"
+  },
+  {
+    "role": "D",
+    "lastname": "CANDELA",
+    "firstname": "Antonio",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CANDELA.png?v=130",
+    "id": "b1a8c574-37f2-4cd7-9b18-c57635e482f9"
+  },
+  {
+    "role": "D",
+    "lastname": "CARBONI",
+    "firstname": "Andrea",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CARBONI-A.png?v=130",
+    "id": "1c5acfb4-f1ba-4bf6-9691-418f787e23ad"
+  },
+  {
+    "role": "D",
+    "lastname": "CARBONI",
+    "firstname": "Franco",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CARBONI-F.png?v=130",
+    "id": "af79b1a3-99ad-4b7d-a51f-1c44b2b7afef"
+  },
+  {
+    "role": "D",
+    "lastname": "CARLOS",
+    "firstname": "AUGUSTO",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CARLOS-AUGUSTO.png?v=130",
+    "id": "7eba665e-fbfb-46ae-b816-e3ab9a8fec14"
+  },
+  {
+    "role": "D",
+    "lastname": "CASALE",
+    "firstname": "Nicolo'",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CASALE.png?v=130",
+    "id": "b713e9a3-473d-4496-aa4d-4ebb5c0a357f"
+  },
+  {
+    "role": "D",
+    "lastname": "CELIK",
+    "firstname": "Zeki",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CELIK.png?v=130",
+    "id": "a57ae1a5-a497-414a-b9a7-d74f02be7c3c"
+  },
+  {
+    "role": "D",
+    "lastname": "CIRCATI",
+    "firstname": "Alessandro",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CIRCATI.png?v=130",
+    "id": "9e3e8041-2233-4a80-bcdf-2197b0555fce"
+  },
+  {
+    "role": "D",
+    "lastname": "COCO",
+    "firstname": "Saul",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/COCO.png?v=130",
+    "id": "78b7aa95-64ab-4184-9448-8c673a10e82e"
+  },
+  {
+    "role": "D",
+    "lastname": "COMUZZO",
+    "firstname": "Pietro",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/COMUZZO.png?v=130",
+    "id": "1f0d05d4-e86a-412a-bfa1-315bcd913a21"
+  },
+  {
+    "role": "D",
+    "lastname": "COPPOLA",
+    "firstname": "Diego",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/COPPOLA-D.png?v=130",
+    "id": "05d254f7-0c80-4081-9baa-03daf3b1e309"
+  },
+  {
+    "role": "D",
+    "lastname": "CORAZZA",
+    "firstname": "Tommaso",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CORAZZA.png?v=130",
+    "id": "719f111b-1150-4f7b-aa31-87cc0e6dac6e"
+  },
+  {
+    "role": "D",
+    "lastname": "COULIBALY",
+    "firstname": "Woyo",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/COULIBALY-W.png?v=130",
+    "id": "85cf0351-5f5c-40f8-8cbe-2895207c47d6"
+  },
+  {
+    "role": "D",
+    "lastname": "CUADRADO",
+    "firstname": "Juan",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CUADRADO.png?v=130",
+    "id": "4f2f8dfd-db23-4576-a3e4-acf8f77eb61d"
+  },
+  {
+    "role": "D",
+    "lastname": "D'AMBROSIO",
+    "firstname": "Danilo",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/D-AMBROSIO.png?v=130",
+    "id": "b1663e55-e6f6-4c98-bb29-0f183a58d7f5"
+  },
+  {
+    "role": "D",
+    "lastname": "DAHL",
+    "firstname": "Samuel",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DAHL.png?v=130",
+    "id": "7fd1ab9b-705c-4e55-8baf-851698af17be"
+  },
+  {
+    "role": "D",
+    "lastname": "DANILIUC",
+    "firstname": "Flavius",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DANILIUC.png?v=130",
+    "id": "c13834f0-4491-4ade-b2f0-d31ed7dbc4d9"
+  },
+  {
+    "role": "D",
+    "lastname": "DANILO",
+    "firstname": "Luiz Da Silva",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DANILO.png?v=130",
+    "id": "4cf27484-77d8-4bf8-a54a-0095908fea5d"
+  },
+  {
+    "role": "D",
+    "lastname": "DARMIAN",
+    "firstname": "Matteo",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DARMIAN.png?v=130",
+    "id": "32c85a10-d238-4b2b-be2d-fab89b2acbcc"
+  },
+  {
+    "role": "D",
+    "lastname": "DAWIDOWICZ",
+    "firstname": "Pawel",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DAWIDOWICZ.png?v=130",
+    "id": "a95085f6-7a14-4ac7-a14f-e2ee2414c363"
+  },
+  {
+    "role": "D",
+    "lastname": "DE SCIGLIO",
+    "firstname": "Mattia",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DE-SCIGLIO.png?v=130",
+    "id": "8f93261e-fe38-40b8-8dbd-b0f4575f0101"
+  },
+  {
+    "role": "D",
+    "lastname": "DE SILVESTRI",
+    "firstname": "Lorenzo",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DE-SILVESTRI.png?v=130",
+    "id": "836ccc95-dd43-419d-b68c-118f5325ed6e"
+  },
+  {
+    "role": "D",
+    "lastname": "DE VRIJ",
+    "firstname": "Stefan",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DE-VRIJ.png?v=130",
+    "id": "a68abd1c-4941-4f89-866d-e169c643e85e"
+  },
+  {
+    "role": "D",
+    "lastname": "DE WINTER",
+    "firstname": "Koni",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DE-WINTER.png?v=130",
+    "id": "2e6a59c5-e02c-4aed-806d-c1f9b6591c9a"
+  },
+  {
+    "role": "D",
+    "lastname": "DELPRATO",
+    "firstname": "Enrico",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DELPRATO.png?v=130",
+    "id": "d84d8236-7137-4640-aa89-2dc34ffc1c6f"
+  },
+  {
+    "role": "D",
+    "lastname": "DEMBELE'",
+    "firstname": "Ali",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DEMBELE-A.png?v=130",
+    "id": "29996ca9-bd8c-43c9-83af-2df59623382a"
+  },
+  {
+    "role": "D",
+    "lastname": "DI CHIARA",
+    "firstname": "Gianluca",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DI-CHIARA.png?v=130",
+    "id": "5329c15b-0f65-427b-8b20-8859bf6ac7fa"
+  },
+  {
+    "role": "D",
+    "lastname": "DI LORENZO",
+    "firstname": "Giovanni",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DI-LORENZO.png?v=130",
+    "id": "363685b2-5cfa-4b0d-87fe-6a89cdd01687"
+  },
+  {
+    "role": "D",
+    "lastname": "DIMARCO",
+    "firstname": "Federico",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DIMARCO.png?v=130",
+    "id": "b8478983-3a43-49a2-a35e-22103ad9f45e"
+  },
+  {
+    "role": "D",
+    "lastname": "DJIMSITI",
+    "firstname": "Berat",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DJIMSITI.png?v=130",
+    "id": "d185fd0a-d300-493f-a8a5-9c2120ab2428"
+  },
+  {
+    "role": "D",
+    "lastname": "DODO",
+    "firstname": "'",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DODO.png?v=130",
+    "id": "4efea72a-74f1-4dcf-9db5-1a971210f67e"
+  },
+  {
+    "role": "D",
+    "lastname": "DORGU",
+    "firstname": "Patrick",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DORGU.png?v=130",
+    "id": "ae85e8af-ae3c-485b-8437-420854546048"
+  },
+  {
+    "role": "D",
+    "lastname": "DOSSENA",
+    "firstname": "Alberto",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DOSSENA.png?v=130",
+    "id": "48ff2871-8d6f-4158-ad4a-6901cfa50762"
+  },
+  {
+    "role": "D",
+    "lastname": "DUMFRIES",
+    "firstname": "Denzel",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DUMFRIES.png?v=130",
+    "id": "eb5f6f7c-3b35-44ec-8a92-b23ecb47e9a4"
+  },
+  {
+    "role": "D",
+    "lastname": "EBOSSE",
+    "firstname": "Enzo",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/EBOSSE.png?v=130",
+    "id": "92c129d4-6156-4c76-a722-56c7dab62bf7"
+  },
+  {
+    "role": "D",
+    "lastname": "EBUEHI",
+    "firstname": "Tyronne",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/EBUEHI.png?v=130",
+    "id": "2befaaa0-a355-4b2b-b2b1-0391c3761306"
+  },
+  {
+    "role": "D",
+    "lastname": "EHIZIBUE",
+    "firstname": "Kingsley",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/EHIZIBUE.png?v=130",
+    "id": "64431eee-e5bc-4afe-9e12-f2544acea43a"
+  },
+  {
+    "role": "D",
+    "lastname": "EMERSON",
+    "firstname": "Royal",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/EMERSON-ROYAL.png?v=131",
+    "id": "a8c9e730-3192-43fa-81cc-156fd435f0c2"
+  },
+  {
+    "role": "D",
+    "lastname": "ERLIC",
+    "firstname": "Martin",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ERLIC.png?v=130",
+    "id": "0b09ede0-f98f-48e8-b120-b698fa49f325"
+  },
+  {
+    "role": "D",
+    "lastname": "FARAONI",
+    "firstname": "Davide",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/FARAONI.png?v=130",
+    "id": "b378c50d-a1cc-4be1-945d-ab6a4e40e096"
+  },
+  {
+    "role": "D",
+    "lastname": "FRESE",
+    "firstname": "Martin",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/FRESE.png?v=130",
+    "id": "9b4cec7d-5cfa-43d5-9e32-1dcb9c9f92dc"
+  },
+  {
+    "role": "D",
+    "lastname": "GABBIA",
+    "firstname": "Matteo",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GABBIA.png?v=130",
+    "id": "53dc143c-c765-4d69-8217-1814e3f9918b"
+  },
+  {
+    "role": "D",
+    "lastname": "GALLO",
+    "firstname": "Antonino",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GALLO.png?v=130",
+    "id": "598ef710-35f5-4958-a5d2-597a457e736d"
+  },
+  {
+    "role": "D",
+    "lastname": "GASPAR",
+    "firstname": "Kialonda",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GASPAR-K.png?v=130",
+    "id": "a40d5a7b-3778-4d12-b9b8-f664066ce39d"
+  },
+  {
+    "role": "D",
+    "lastname": "GATTI",
+    "firstname": "Federico",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GATTI.png?v=130",
+    "id": "64ade903-8337-4b1c-9f45-bcf182de3912"
+  },
+  {
+    "role": "D",
+    "lastname": "GHILARDI",
+    "firstname": "Daniele",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GHILARDI.png?v=130",
+    "id": "a385a0c2-131f-4df1-8182-a76cc9330344"
+  },
+  {
+    "role": "D",
+    "lastname": "GIANNETTI",
+    "firstname": "Lautaro",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GIANNETTI-L.png?v=130",
+    "id": "7b352dfd-82e3-42d2-a4e6-5d40740751c4"
+  },
+  {
+    "role": "D",
+    "lastname": "GIGOT",
+    "firstname": "Samuel",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GIGOT.png?v=130",
+    "id": "56dbfe8b-1e2d-4c3c-a1b1-648525011d58"
+  },
+  {
+    "role": "D",
+    "lastname": "GILA",
+    "firstname": "Mario",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GILA.png?v=130",
+    "id": "4d9d4e52-53dd-4a0f-87a1-77174437ec46"
+  },
+  {
+    "role": "D",
+    "lastname": "GODFREY",
+    "firstname": "Ben",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GODFREY.png?v=130",
+    "id": "20f712be-a7a2-4d40-887a-96235165a94c"
+  },
+  {
+    "role": "D",
+    "lastname": "GOGLICHIDZE",
+    "firstname": "Saba",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GOGLICHIDZE.png?v=130",
+    "id": "cc77cc92-b327-4eb1-a14f-a64199288d9d"
+  },
+  {
+    "role": "D",
+    "lastname": "GOLDANIGA",
+    "firstname": "Edoardo",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GOLDANIGA.png?v=130",
+    "id": "9941f650-6aed-4a2b-93d0-445195b93e75"
+  },
+  {
+    "role": "D",
+    "lastname": "GOSENS",
+    "firstname": "Robin",
+    "team": " Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GOSENS.png?v=130",
+    "id": "dd3104de-352c-45c3-ae63-98edeb13465c"
+  },
+  {
+    "role": "D",
+    "lastname": "GUILBERT",
+    "firstname": "Frederic",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GUILBERT.png?v=130",
+    "id": "1f768da1-c6df-47f4-a9a7-909f54cafca3"
+  },
+  {
+    "role": "D",
+    "lastname": "HAPS",
+    "firstname": "Ridgeciano",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/HAPS.png?v=130",
+    "id": "4b4fe11a-b443-49d1-99bc-cacf3b1f30d1"
+  },
+  {
+    "role": "D",
+    "lastname": "HERMOSO",
+    "firstname": "Mario",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/HERMOSO.png?v=131",
+    "id": "397a6446-5645-42e4-9fbe-08e8ec1d00c0"
+  },
+  {
+    "role": "D",
+    "lastname": "HERNANDEZ",
+    "firstname": "Theo",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/HERNANDEZ-T.png?v=130",
+    "id": "9c5be4e6-6530-4bf7-a5ce-c4cec3dfa2d8"
+  },
+  {
+    "role": "D",
+    "lastname": "HIEN",
+    "firstname": "Isak",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/HIEN.png?v=130",
+    "id": "51b1ff0a-ce9c-430d-b62e-41ed986dcd21"
+  },
+  {
+    "role": "D",
+    "lastname": "HOLM",
+    "firstname": "Emil",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/HOLM.png?v=130",
+    "id": "d408a02f-a73e-4b57-a88a-318dce323b27"
+  },
+  {
+    "role": "D",
+    "lastname": "HUMMELS",
+    "firstname": "Mats",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/HUMMELS.png?v=131",
+    "id": "19d335e7-6754-4e8b-b3df-a1ec33535acb"
+  },
+  {
+    "role": "D",
+    "lastname": "HYSAJ",
+    "firstname": "Elseid",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/HYSAJ.png?v=130",
+    "id": "e1e7fe85-37cb-4f0f-8efc-ecefc037a9fe"
+  },
+  {
+    "role": "D",
+    "lastname": "IDZES",
+    "firstname": "Jay",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/IDZES.png?v=130",
+    "id": "dd9c9b55-a667-49c6-9e83-7c8fc0a55388"
+  },
+  {
+    "role": "D",
+    "lastname": "ILIC",
+    "firstname": "Mihajlo",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ILIC-M.png?v=130",
+    "id": "5812f7aa-b4ed-459d-8be2-84c646369ad9"
+  },
+  {
+    "role": "D",
+    "lastname": "IOVINE",
+    "firstname": "Alessio",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/IOVINE.png?v=130",
+    "id": "ea82928b-1ee7-4432-9833-bb5a388105e3"
+  },
+  {
+    "role": "D",
+    "lastname": "ISMAJLI",
+    "firstname": "Ardian",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ISMAJLI.png?v=130",
+    "id": "d9c3abc8-6f84-4026-ab71-f838dbffcdd8"
+  },
+  {
+    "role": "D",
+    "lastname": "IZZO",
+    "firstname": "Armando",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/IZZO.png?v=130",
+    "id": "2db2dc35-ae33-48b9-8d51-8531dcb877f1"
+  },
+  {
+    "role": "D",
+    "lastname": "JEAN",
+    "firstname": "Gaby",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/JEAN.png?v=130",
+    "id": "ffa89bc7-4e26-4932-b28a-cd3bce5f5df6"
+  },
+  {
+    "role": "D",
+    "lastname": "JUAN JESUS",
+    "firstname": "Guilherme Nunes",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/JUAN-JESUS.png?v=130",
+    "id": "01b174bd-8825-491d-a552-1fab32876c5c"
+  },
+  {
+    "role": "D",
+    "lastname": "KABASELE",
+    "firstname": "Christian",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KABASELE.png?v=130",
+    "id": "bf7123cd-ffd6-4ffa-ba7a-e3ad0f4de4dc"
+  },
+  {
+    "role": "D",
+    "lastname": "KALULU",
+    "firstname": "Pierre",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KALULU.png?v=130",
+    "id": "67a3d7ab-b538-4c01-9d78-b8f2b6fcdb18"
+  },
+  {
+    "role": "D",
+    "lastname": "KAMARA",
+    "firstname": "Hassane",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KAMARA-H.png?v=130",
+    "id": "49e49325-3a84-4fbb-ba3c-ce8db05d9107"
+  },
+  {
+    "role": "D",
+    "lastname": "KAYODE",
+    "firstname": "Michael",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KAYODE.png?v=130",
+    "id": "e14e00fe-f1ea-4d6a-a1ad-4e939183cb61"
+  },
+  {
+    "role": "D",
+    "lastname": "KEMPF",
+    "firstname": "Marc-Oliver",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KEMPF.png?v=130",
+    "id": "3b8aa34e-5449-4561-9490-26c28fef8e73"
+  },
+  {
+    "role": "D",
+    "lastname": "KOLASINAC",
+    "firstname": "Sead",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KOLASINAC.png?v=130",
+    "id": "7bda202c-23ea-4c4d-9b5d-6485df1bcf50"
+  },
+  {
+    "role": "D",
+    "lastname": "KOSSOUNOU",
+    "firstname": "Odilon",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KOSSOUNOU.png?v=130",
+    "id": "8a96bba9-68e1-4c01-b0f5-e0dcb2cdf27f"
+  },
+  {
+    "role": "D",
+    "lastname": "KRISTENSEN",
+    "firstname": "Thomas",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KRISTENSEN-T.png?v=131",
+    "id": "2aee959e-b9b2-4438-874f-ebe68f5a84c7"
+  },
+  {
+    "role": "D",
+    "lastname": "KYRIAKOPOULOS",
+    "firstname": "Georgios",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/KYRIAKOPOULOS.png?v=130",
+    "id": "c1ec6ff9-53f3-42bf-86c3-ed07dda75659"
+  },
+  {
+    "role": "D",
+    "lastname": "LAZARO",
+    "firstname": "Valentino",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LAZARO.png?v=130",
+    "id": "0da39ab9-2573-4f60-9556-6541b464c57a"
+  },
+  {
+    "role": "D",
+    "lastname": "LAZZARI",
+    "firstname": "Manuel",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LAZZARI.png?v=130",
+    "id": "9a45e03a-fdc2-42b5-85a1-cdbd0da060b2"
+  },
+  {
+    "role": "D",
+    "lastname": "LEONI",
+    "firstname": "Giovanni",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LEONI.png?v=130",
+    "id": "63ac68b8-b620-4160-b5e9-8a1681af50f3"
+  },
+  {
+    "role": "D",
+    "lastname": "LUCUMI",
+    "firstname": "Jhon",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LUCUMI.png?v=130",
+    "id": "97b2c3e9-cc94-45d7-8a63-4de9f8bda938"
+  },
+  {
+    "role": "D",
+    "lastname": "LUPERTO",
+    "firstname": "Sebastiano",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LUPERTO.png?v=130",
+    "id": "bc80ef2c-24cb-4b64-92da-527da059755b"
+  },
+  {
+    "role": "D",
+    "lastname": "LYKOGIANNIS",
+    "firstname": "Charalampos",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LYKOGIANNIS.png?v=130",
+    "id": "979bd3e3-675d-4054-9cc4-a6d0494ef838"
+  },
+  {
+    "role": "D",
+    "lastname": "MAGNANI",
+    "firstname": "Giangiacomo",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MAGNANI.png?v=130",
+    "id": "6274daea-cd95-4a41-85be-f0dbe853cbd7"
+  },
+  {
+    "role": "D",
+    "lastname": "MANCINI",
+    "firstname": "Gianluca",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MANCINI.png?v=130",
+    "id": "aba39cc4-1cee-4f8f-b4f5-508bc7311128"
+  },
+  {
+    "role": "D",
+    "lastname": "MARCANDALLI",
+    "firstname": "Alessandro",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MARCANDALLI.png?v=130",
+    "id": "313e2afc-75d7-4f7b-869b-432eacf932b7"
+  },
+  {
+    "role": "D",
+    "lastname": "MARI",
+    "firstname": "Pablo",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MARI.png?v=130",
+    "id": "2b09ebc0-d0e1-4e8d-9627-bafef6e73751"
+  },
+  {
+    "role": "D",
+    "lastname": "MARIANUCCI",
+    "firstname": "Luca",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MARIANUCCI.png?v=130",
+    "id": "4cbb4671-6887-49c7-a31a-2a9f48d6dd07"
+  },
+  {
+    "role": "D",
+    "lastname": "MARIN",
+    "firstname": "Rafa",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MARIN-R.png?v=130",
+    "id": "d4643ec5-03d9-4bc0-a84e-eec330144e60"
+  },
+  {
+    "role": "D",
+    "lastname": "MARIO RUI",
+    "firstname": "Silva Duarte",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MARIO-RUI.png?v=130",
+    "id": "3d0da9b2-ee88-46a4-bc37-6bb36760508c"
+  },
+  {
+    "role": "D",
+    "lastname": "MARIPAN",
+    "firstname": "Guillermo",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MARIPAN.png?v=130",
+    "id": "162d0604-86a5-4380-ac87-f7ef8dfafe88"
+  },
+  {
+    "role": "D",
+    "lastname": "MARTIN",
+    "firstname": "Aaron",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MARTIN.png?v=130",
+    "id": "0a47b162-ce2a-48c6-ab57-4a6cda1e5848"
+  },
+  {
+    "role": "D",
+    "lastname": "MARTINEZ QUARTA",
+    "firstname": "Lucas",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MARTINEZ-QUARTA.png?v=130",
+    "id": "7360d1e2-f0f9-48f9-988b-01a9398f8230"
+  },
+  {
+    "role": "D",
+    "lastname": "MARUSIC",
+    "firstname": "Adam",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MARUSIC.png?v=130",
+    "id": "f957cd71-27f1-41c7-9868-a6a3989bd2e3"
+  },
+  {
+    "role": "D",
+    "lastname": "MASINA",
+    "firstname": "Adam",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MASINA.png?v=130",
+    "id": "ae472b4c-3ac0-4642-bce8-794f78a2ced0"
+  },
+  {
+    "role": "D",
+    "lastname": "MATTURRO",
+    "firstname": "Alan",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MATTURRO.png?v=130",
+    "id": "a3db24da-f969-485a-9e07-615387991f72"
+  },
+  {
+    "role": "D",
+    "lastname": "MAZZOCCHI",
+    "firstname": "Pasquale",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MAZZOCCHI.png?v=130",
+    "id": "88884966-15be-4c82-b519-4944b7d84f46"
+  },
+  {
+    "role": "D",
+    "lastname": "MINA",
+    "firstname": "Yerry",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MINA.png?v=130",
+    "id": "411ce617-822e-4b57-944d-9aae6cf8bbf3"
+  },
+  {
+    "role": "D",
+    "lastname": "MIRANDA",
+    "firstname": "Juan",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MIRANDA-J.png?v=130",
+    "id": "eb1430ea-8b45-412f-8591-d92e7cafb157"
+  },
+  {
+    "role": "D",
+    "lastname": "MORENO",
+    "firstname": "Alberto",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MORENO-ALB.png?v=130",
+    "id": "9cf91283-544c-4745-9370-d5cca379d28a"
+  },
+  {
+    "role": "D",
+    "lastname": "MORENO",
+    "firstname": "Matias",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MORENO-M.png?v=130",
+    "id": "411e9e64-1c43-451a-a706-344f36557aed"
+  },
+  {
+    "role": "D",
+    "lastname": "N'DICKA",
+    "firstname": "Evan",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/NDICKA.png?v=130",
+    "id": "d2ee49e8-830b-4f86-9485-af59d2830774"
+  },
+  {
+    "role": "D",
+    "lastname": "NORTON-CUFFY",
+    "firstname": "Brooke",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/NORTON-CUFFY.png?v=130",
+    "id": "dce8d104-f5a2-4eba-bf2d-313e539cc3f5"
+  },
+  {
+    "role": "D",
+    "lastname": "OBERT",
+    "firstname": "Adam",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/OBERT.png?v=130",
+    "id": "ffcf2677-71d1-4a62-9a7d-2c65ef33ce87"
+  },
+  {
+    "role": "D",
+    "lastname": "OKOU",
+    "firstname": "Yllan",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/OKOU.png?v=130",
+    "id": "f0e8756d-ae46-41e3-9ae3-ea09f818ee5b"
+  },
+  {
+    "role": "D",
+    "lastname": "OLIVERA",
+    "firstname": "Mathias",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/OLIVERA.png?v=130",
+    "id": "1835d126-bef9-4859-90cf-2b95055ef1fc"
+  },
+  {
+    "role": "D",
+    "lastname": "OSORIO",
+    "firstname": "Yordan",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/OSORIO.png?v=130",
+    "id": "afefe935-6351-4564-a44e-880de6f8f238"
+  },
+  {
+    "role": "D",
+    "lastname": "PALACIOS",
+    "firstname": "Tomas",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PALACIOS-T.png?v=130",
+    "id": "fd86f659-b6f8-400c-842d-3dc8af5aac98"
+  },
+  {
+    "role": "D",
+    "lastname": "PALESTRA",
+    "firstname": "Marco",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/NO-CAMPIONCINO.png?v=56             ",
+    "id": "18acbfdc-22f0-4405-a7f5-24777bfa56d4"
+  },
+  {
+    "role": "D",
+    "lastname": "PALOMINO",
+    "firstname": "Jose' Luis",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PALOMINO.png?v=130",
+    "id": "c8bedcc2-32f2-496f-ba9a-5e8568fb8395"
+  },
+  {
+    "role": "D",
+    "lastname": "PARISI",
+    "firstname": "Fabiano",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PARISI.png?v=130",
+    "id": "0901249b-1358-45c4-8c2f-95ca27aced96"
+  },
+  {
+    "role": "D",
+    "lastname": "PATRIC",
+    "firstname": "",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PATRIC.png?v=130",
+    "id": "1387a24e-a23e-4d9c-ab23-10b0e54d8b63"
+  },
+  {
+    "role": "D",
+    "lastname": "PAVARD",
+    "firstname": "Benjamin",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PAVARD.png?v=130",
+    "id": "780b8692-f99f-4657-a35f-91dc3e80de02"
+  },
+  {
+    "role": "D",
+    "lastname": "PAVLOVIC",
+    "firstname": "Strahinja",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PAVLOVIC.png?v=130",
+    "id": "947d0326-7aa9-4a79-b4e9-484afeb9ae67"
+  },
+  {
+    "role": "D",
+    "lastname": "PEDERSEN",
+    "firstname": "Marcus",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PEDERSEN.png?v=130",
+    "id": "90737365-6145-403c-8db9-b150b6b89a35"
+  },
+  {
+    "role": "D",
+    "lastname": "PELLEGRINI",
+    "firstname": "Luca",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PELLEGRINI-LU.png?v=130",
+    "id": "7370295b-0542-4e4e-bbf8-fc6dd8898512"
+  },
+  {
+    "role": "D",
+    "lastname": "PELMARD",
+    "firstname": "Andy",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PELMARD.png?v=130",
+    "id": "6c09d4df-ffe9-4a52-8e23-fde736d770ee"
+  },
+  {
+    "role": "D",
+    "lastname": "PEREIRA",
+    "firstname": "Pedro",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PEREIRA-P.png?v=130",
+    "id": "4d69ef1a-1c33-410f-a656-3efdf5d1fa13"
+  },
+  {
+    "role": "D",
+    "lastname": "PEZZELLA",
+    "firstname": "Giuseppe",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PEZZELLA-GIU.png?v=130",
+    "id": "27e3086c-11cb-4f1e-83ce-fa7b6181dbb5"
+  },
+  {
+    "role": "D",
+    "lastname": "PONGRACIC",
+    "firstname": "Marin",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PONGRACIC.png?v=130",
+    "id": "b07c7eaf-2a23-4f29-b7b0-89bd04db98f2"
+  },
+  {
+    "role": "D",
+    "lastname": "POSCH",
+    "firstname": "Stefan",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/POSCH.png?v=130",
+    "id": "67e01244-5b0f-44c1-ba0f-3b2770c8456e"
+  },
+  {
+    "role": "D",
+    "lastname": "RANIERI",
+    "firstname": "Luca",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/RANIERI-L.png?v=130",
+    "id": "5ec1cbb0-b466-445c-8a04-0eab1ee47951"
+  },
+  {
+    "role": "D",
+    "lastname": "ROMAGNOLI",
+    "firstname": "Alessio",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ROMAGNOLI.png?v=130",
+    "id": "30f0dcd8-f582-471b-81a4-8b1de285a01d"
+  },
+  {
+    "role": "D",
+    "lastname": "ROUHI",
+    "firstname": "Jonas",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ROUHI.png?v=130",
+    "id": "c5816468-8d1e-408a-b0bb-df76236cfe4c"
+  },
+  {
+    "role": "D",
+    "lastname": "RRAHMANI",
+    "firstname": "Amir",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/RRAHMANI.png?v=130",
+    "id": "f931be7d-7f80-4089-97ac-46bda66c648a"
+  },
+  {
+    "role": "D",
+    "lastname": "RUGGERI",
+    "firstname": "Matteo",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/RUGGERI.png?v=130",
+    "id": "c2bef850-850c-4aa8-ae65-d9db77183129"
+  },
+  {
+    "role": "D",
+    "lastname": "SABELLI",
+    "firstname": "Stefano",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SABELLI.png?v=130",
+    "id": "c49ae220-cbde-4520-809a-09b21be05349"
+  },
+  {
+    "role": "D",
+    "lastname": "SAGRADO",
+    "firstname": "Richie",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SAGRADO.png?v=130",
+    "id": "753803b8-5b4a-4625-879e-de50699fceac"
+  },
+  {
+    "role": "D",
+    "lastname": "SALA",
+    "firstname": "Marco",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SALA-M.png?v=130",
+    "id": "502847b5-a771-4260-923f-983b6d5db794"
+  },
+  {
+    "role": "D",
+    "lastname": "SAMBIA",
+    "firstname": "Junior",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SAMBIA.png?v=130",
+    "id": "40b6be28-f8b9-4437-a014-5e04628d1ceb"
+  },
+  {
+    "role": "D",
+    "lastname": "SANGARE'",
+    "firstname": "Buba",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SANGARE-B.png?v=130",
+    "id": "2449c6b8-914b-4fe2-b23a-258f6050eff8"
+  },
+  {
+    "role": "D",
+    "lastname": "SAVONA",
+    "firstname": "Nicolo'",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SAVONA.png?v=130",
+    "id": "52cc28af-55c4-453a-b1f2-d9a8bf7b4de9"
+  },
+  {
+    "role": "D",
+    "lastname": "SAZONOV",
+    "firstname": "Saba",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SAZONOV.png?v=130",
+    "id": "34cc0127-a1cc-4386-9f4d-4b21b0ef37bd"
+  },
+  {
+    "role": "D",
+    "lastname": "SCALVINI",
+    "firstname": "Giorgio",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SCALVINI.png?v=130",
+    "id": "b923f41f-5653-4cec-8e4f-e2ee9908a32a"
+  },
+  {
+    "role": "D",
+    "lastname": "SCHINGTIENNE",
+    "firstname": "Joel",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SCHINGTIENNE.png?v=130",
+    "id": "76676114-7ff8-4221-8b74-c4729e181b0c"
+  },
+  {
+    "role": "D",
+    "lastname": "SCHUURS",
+    "firstname": "Perr",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SCHUURS.png?v=130",
+    "id": "10a84d43-8f82-4edd-b255-2a1da32e4a21"
+  },
+  {
+    "role": "D",
+    "lastname": "SERGI",
+    "firstname": "Roberto",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SERGI-ROBERTO.png?v=130",
+    "id": "8c89945b-28ac-4f06-8f86-bdb194664b8c"
+  },
+  {
+    "role": "D",
+    "lastname": "SOSA",
+    "firstname": "Borna",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SOSA-B.png?v=130",
+    "id": "a2928c82-67a0-4f74-9111-f4339121ab0c"
+  },
+  {
+    "role": "D",
+    "lastname": "SPINAZZOLA",
+    "firstname": "Leonardo",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SPINAZZOLA.png?v=130",
+    "id": "e727f30d-6595-4327-bc66-d67b2c71da35"
+  },
+  {
+    "role": "D",
+    "lastname": "SVERKO",
+    "firstname": "Marin",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SVERKO.png?v=130",
+    "id": "b1ade0ed-90ea-43d1-99b0-9217d8d22b37"
+  },
+  {
+    "role": "D",
+    "lastname": "SVOBODA",
+    "firstname": "Michael",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SVOBODA.png?v=130",
+    "id": "2a0cd237-0026-47ef-bf5f-73494dce6566"
+  },
+  {
+    "role": "D",
+    "lastname": "TAVARES",
+    "firstname": "Nuno",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/TAVARES-N.png?v=130",
+    "id": "e4cc5688-cc28-429c-877c-8cc9b7cacbe0"
+  },
+  {
+    "role": "D",
+    "lastname": "TCHATCHOUA",
+    "firstname": "Jackson",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/TCHATCHOUA.png?v=130",
+    "id": "ada7c15d-4c63-4d89-8f1c-58a31cd0f377"
+  },
+  {
+    "role": "D",
+    "lastname": "TERRACCIANO",
+    "firstname": "Filippo",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/TERRACCIANO-F.png?v=131",
+    "id": "42e9b4fb-8c36-4e1e-b290-de9c7730eda7"
+  },
+  {
+    "role": "D",
+    "lastname": "THIAW",
+    "firstname": "Malick",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/THIAW.png?v=130",
+    "id": "840fd580-50f5-4675-be19-635c5ed6a08a"
+  },
+  {
+    "role": "D",
+    "lastname": "TOLOI",
+    "firstname": "Rafael",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/TOLOI.png?v=130",
+    "id": "dcdb9e20-6715-445c-b746-d092ef3e697b"
+  },
+  {
+    "role": "D",
+    "lastname": "TOMORI",
+    "firstname": "Fikayo",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/TOMORI.png?v=130",
+    "id": "b5b712d3-ffc3-4f41-a64d-6934c59654b7"
+  },
+  {
+    "role": "D",
+    "lastname": "TOURE'",
+    "firstname": "Souleymane Isaak",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/TOURE-IS.png?v=130",
+    "id": "10a86cda-eb85-4f03-a630-aa249a7e2ff0"
+  },
+  {
+    "role": "D",
+    "lastname": "VALENTI",
+    "firstname": "Lautaro",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/VALENTI.png?v=130",
+    "id": "28bff889-b459-4315-8cc2-9ac570ea0e8a"
+  },
+  {
+    "role": "D",
+    "lastname": "VALERI",
+    "firstname": "Emanuele",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/VALERI.png?v=130",
+    "id": "0c4f0961-591c-4458-a792-b04f2abc78a3"
+  },
+  {
+    "role": "D",
+    "lastname": "VAN DER BREMPT",
+    "firstname": "Ignace",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/VAN-DER-BREMPT.png?v=130",
+    "id": "ea11bb0d-c56e-4a7c-9dff-aa4faf731dac"
+  },
+  {
+    "role": "D",
+    "lastname": "VARANE",
+    "firstname": "Raphael",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/VARANE.png?v=130",
+    "id": "32a2a43b-108d-4748-b13e-40733470f5d4"
+  },
+  {
+    "role": "D",
+    "lastname": "VASQUEZ",
+    "firstname": "Johan",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/VASQUEZ.png?v=130",
+    "id": "ecff287e-11a0-4efd-b0b9-0a501ca00022"
+  },
+  {
+    "role": "D",
+    "lastname": "VITI",
+    "firstname": "Mattia",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/VITI.png?v=130",
+    "id": "f919c13e-7f5f-4ba9-a0f2-93f3434f7d5a"
+  },
+  {
+    "role": "D",
+    "lastname": "VOGLIACCO",
+    "firstname": "Alessandro",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/VOGLIACCO.png?v=130",
+    "id": "7a1a2f26-b594-4319-a3ca-fac2660cf28e"
+  },
+  {
+    "role": "D",
+    "lastname": "VOJVODA",
+    "firstname": "Mergim",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/VOJVODA.png?v=130",
+    "id": "c7f32723-a453-407c-98fa-b8781b0f8701"
+  },
+  {
+    "role": "D",
+    "lastname": "WALUKIEWICZ",
+    "firstname": "Sebastian",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/WALUKIEWICZ.png?v=130",
+    "id": "0d0e321f-14bb-4758-b1c0-981b0a5b4719"
+  },
+  {
+    "role": "D",
+    "lastname": "WIETESKA",
+    "firstname": "Mateusz",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/WIETESKA.png?v=130",
+    "id": "902eb3c0-aff2-4d3f-b090-04e35abe0d03"
+  },
+  {
+    "role": "D",
+    "lastname": "ZAMPANO",
+    "firstname": "Francesco",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ZAMPANO.png?v=130",
+    "id": "a3b69f99-344f-40ae-bcff-50466af535c4"
+  },
+  {
+    "role": "D",
+    "lastname": "ZANOLI",
+    "firstname": "Alessandro",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ZANOLI.png?v=130",
+    "id": "445ab3ca-d1c8-4c00-89d6-495135fca700"
+  },
+  {
+    "role": "D",
+    "lastname": "ZAPPA",
+    "firstname": "Gabriele",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ZAPPA.png?v=130",
+    "id": "867b940b-37b3-4ad0-adc7-496c6769961e"
+  },
+  {
+    "role": "D",
+    "lastname": "ZAPPACOSTA",
+    "firstname": "Davide",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ZAPPACOSTA.png?v=130",
+    "id": "1d1a63aa-f5fd-4d46-b2bf-533683480085"
+  },
+  {
+    "role": "D",
+    "lastname": "ZEMURA",
+    "firstname": "Jordan",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ZEMURA.png?v=130",
+    "id": "bcc111cb-d0cb-4180-9c80-5dd16b809873"
+  },
+  {
+    "role": "D",
+    "lastname": "ZORTEA",
+    "firstname": "Nadir",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ZORTEA.png?v=130",
+    "id": "a4d018b3-5d54-4bae-beea-ea0dcd7e0ab8"
+  },
+  {
+    "firstname": "Emil",
+    "lastname": "AUDERO",
+    "role": "P",
+    "team": "Como",
+    "id": "cb98f0b5-f865-4a2d-9bc7-b3491c289c45",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/AUDERO.png?v=130"
+  },
+  {
+    "firstname": "Nicola",
+    "lastname": "BAGNOLINI",
+    "role": "P",
+    "team": "Bologna",
+    "id": "cc3fabaf-5e5e-43fd-b83b-7a937388a7bb",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BAGNOLINI.png?v=130"
+  },
+  {
+    "firstname": "Alessandro",
+    "lastname": "BERARDI",
+    "role": "P",
+    "team": "Verona",
+    "id": "631220a7-412a-4f9f-bba9-8eeba1564013",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BERARDI-A.png?v=130"
+  },
+  {
+    "role": "P",
+    "lastname": "BERTINATO",
+    "firstname": "Bruno",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BERTINATO.png?v=130",
+    "id": "7ef95d56-95dd-4166-8d5a-601ce7c44cd7"
+  },
+  {
+    "role": "P",
+    "lastname": "BRANCOLINI",
+    "firstname": "Federico",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/BRANCOLINI.png?v=130",
+    "id": "615e6dcb-b3d4-4f52-a035-d4b61898f79e"
+  },
+  {
+    "role": "P",
+    "lastname": "CAPRILE",
+    "firstname": "Elia",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CAPRILE.png?v=130",
+    "id": "99337413-b5e8-47e8-b9f4-3452699941a0"
+  },
+  {
+    "firstname": "Marco",
+    "lastname": "CARNESECCHI",
+    "role": "P",
+    "team": "Atalanta",
+    "id": "94420a42-6501-4998-a801-8ddab706a6ad",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CARNESECCHI.png?v=130"
+  },
+  {
+    "role": "P",
+    "lastname": "CHICHIZOLA",
+    "firstname": "Leandro",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CHICHIZOLA.png?v=130",
+    "id": "86b220b5-8e34-40a9-a1f5-10dafb578a86"
+  },
+  {
+    "role": "P",
+    "lastname": "CHRISTENSEN",
+    "firstname": "Oliver",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CHRISTENSEN-O.png?v=130",
+    "id": "30eb1c20-0ef3-48ec-bf9c-bb515119f61c"
+  },
+  {
+    "role": "P",
+    "lastname": "CIOCCI",
+    "firstname": "Giuseppe",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CIOCCI.png?v=130",
+    "id": "a133b6e2-ad4b-484f-894b-ece31404620f"
+  },
+  {
+    "role": "P",
+    "lastname": "CONTINI",
+    "firstname": "Nikita",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CONTINI.png?v=130 ",
+    "id": "ce63ced8-22d4-4cae-a336-d75e43ec5c29"
+  },
+  {
+    "role": "P",
+    "lastname": "CORVI",
+    "firstname": "Edoardo",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CORVI.png?v=130",
+    "id": "cb9fa84c-da00-4f1c-bc3e-32dbc9579063"
+  },
+  {
+    "role": "P",
+    "lastname": "CRAGNO",
+    "firstname": "Alessio",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/CRAGNO.png?v=130",
+    "id": "0348076b-6f36-4acc-8808-fe5355c28250"
+  },
+  {
+    "role": "P",
+    "lastname": "DE GEA",
+    "firstname": "David",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DE-GEA.png?v=130",
+    "id": "cee4522b-c2b3-402e-a28d-43a3b7f8e4df"
+  },
+  {
+    "role": "P",
+    "lastname": "DI GENNARO",
+    "firstname": "Raffaele",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DI-GENNARO.png?v=130",
+    "id": "df0b56e3-24f2-4d11-96e0-c994f2b1d074"
+  },
+  {
+    "role": "P",
+    "lastname": "DI GREGORIO",
+    "firstname": "Michele",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DI-GREGORIO.png?v=130",
+    "id": "77416f98-6f42-4f20-afd0-f0a00dcab886"
+  },
+  {
+    "role": "P",
+    "lastname": "DONNARUMMA",
+    "firstname": "Antonio",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/DONNARUMMA-AN.png?v=130",
+    "id": "7611dee9-8adf-4a60-807e-31ea6536788f"
+  },
+  {
+    "role": "P",
+    "lastname": "FALCONE",
+    "firstname": "Wladimiro",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/FALCONE.png?v=130",
+    "id": "3a4a4670-3cd4-42b9-a737-78f630d5da93"
+  },
+  {
+    "role": "P",
+    "lastname": "FRUCHTL",
+    "firstname": "Christian",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/FRUCHTL.png?v=130",
+    "id": "91d94a84-eb06-4eb6-8115-81feeb84d3c2"
+  },
+  {
+    "role": "P",
+    "lastname": "FURLANETTO",
+    "firstname": "Alessio",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/FURLANETTO.png?v=130",
+    "id": "c0ee84ff-ba77-488e-a460-1d680e946f2e"
+  },
+  {
+    "role": "P",
+    "lastname": "GOLLINI",
+    "firstname": "Pierluigi",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GOLLINI.png?v=130",
+    "id": "746d7c3f-b642-4965-a04a-2e47041d64ec"
+  },
+  {
+    "role": "P",
+    "lastname": "GRANDI",
+    "firstname": "Matteo",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/GRANDI.png?v=130",
+    "id": "eaaa44c8-78f4-488d-aa2a-3c7914e83c17"
+  },
+  {
+    "role": "P",
+    "lastname": "JORONEN",
+    "firstname": "Jesse",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/JORONEN.png?v=130",
+    "id": "35446e4b-2448-4c85-bde5-ae4ddd3761f4"
+  },
+  {
+    "role": "P",
+    "lastname": "LEALI",
+    "firstname": "Nicola",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/LEALI.png?v=130",
+    "id": "2f53921c-f983-4e6b-8814-876eee507ae8"
+  },
+  {
+    "role": "P",
+    "lastname": "MAIGNAN",
+    "firstname": "Mike",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MAIGNAN.png?v=130",
+    "id": "c1e2d48a-76bc-42a7-9884-da548fbc6417"
+  },
+  {
+    "role": "P",
+    "lastname": "MANDAS",
+    "firstname": "Christos",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MANDAS.png?v=130",
+    "id": "af75b36f-6f59-4016-aa34-06fa3f07563c"
+  },
+  {
+    "role": "P",
+    "lastname": "MARIN",
+    "firstname": "Renato",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MARIN-RE.png?v=130",
+    "id": "8da170a2-a773-462a-a894-d267268060a3"
+  },
+  {
+    "role": "P",
+    "lastname": "MARTINELLI",
+    "firstname": "Tommaso",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MARTINELLI-T.png?v=130 ",
+    "id": "a33e7011-50bc-44a1-a5b8-d279a5eef3db"
+  },
+  {
+    "role": "P",
+    "lastname": "MARTINEZ",
+    "firstname": "Josep",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MARTINEZ-JO.png?v=130",
+    "id": "3593584f-4f5f-4b45-b8b3-e655e9ae3b27"
+  },
+  {
+    "role": "P",
+    "lastname": "MERET",
+    "firstname": "Alex",
+    "team": "Napoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MERET.png?v=130",
+    "id": "f4281ca5-2ca4-4b4d-b5d9-0da8aa111b29"
+  },
+  {
+    "role": "P",
+    "lastname": "MILINKOVIC-SAVIC",
+    "firstname": "Vanja",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MILINKOVIC-SAVIC-V.png?v=130",
+    "id": "412198d8-1998-4a53-9be3-537339892b0f"
+  },
+  {
+    "role": "P",
+    "lastname": "MONTIPO",
+    "firstname": "Lorenzo",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/MONTIPO.png?v=130",
+    "id": "711b538e-c2fe-44bd-8047-9b8eefe113db"
+  },
+  {
+    "role": "P",
+    "lastname": "NAVA",
+    "firstname": "Lapo",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/NAVA.png?v=130",
+    "id": "e1d9532b-3cac-460d-b58c-c0e31425b73d"
+  },
+  {
+    "role": "P",
+    "lastname": "OKOYE",
+    "firstname": "Maduka",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/OKOYE.png?v=130",
+    "id": "acfb579f-dd6a-47d5-ba28-e43bfcc6a199"
+  },
+  {
+    "role": "P",
+    "lastname": "PADELLI",
+    "firstname": "Daniele",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PADELLI.png?v=130",
+    "id": "c891bc6d-e7a2-4f7a-8282-912213a57d50"
+  },
+  {
+    "role": "P",
+    "lastname": "PALEARI",
+    "firstname": "Alberto",
+    "team": "Torino",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PALEARI.png?v=130",
+    "id": "1b9c0867-d078-4f9c-9e62-d6bc716629c1"
+  },
+  {
+    "role": "P",
+    "lastname": "PERILLI",
+    "firstname": "Simone",
+    "team": "Verona",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PERILLI.png?v=130",
+    "id": "a66a503f-f50f-4a53-a43b-5365004543ef"
+  },
+  {
+    "role": "P",
+    "lastname": "PERIN",
+    "firstname": "Mattia",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PERIN.png?v=130",
+    "id": "a424c212-cc65-4eda-8da5-41433b1dab86"
+  },
+  {
+    "role": "P",
+    "lastname": "PERISAN",
+    "firstname": "Samuele",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PERISAN.png?v=130",
+    "id": "e491f2a5-88fc-4ec5-9b3b-4028f77c075a"
+  },
+  {
+    "role": "P",
+    "lastname": "PINSOGLIO",
+    "firstname": "Carlo",
+    "team": "Juventus",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PINSOGLIO.png?v=130",
+    "id": "4bff2284-77a7-43f1-a9d5-dd10c7f5a6a5"
+  },
+  {
+    "role": "P",
+    "lastname": "PIZZIGNACCO",
+    "firstname": "Semuel",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PIZZIGNACCO.png?v=130 ",
+    "id": "6cd92a91-72ee-4797-8b43-e8bc883e77fc"
+  },
+  {
+    "role": "P",
+    "lastname": "PROVEDEL",
+    "firstname": "Ivan",
+    "team": "Lazio",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/PROVEDEL.png?v=130",
+    "id": "454b0610-03bc-40d2-bbac-a2a26282af0a"
+  },
+  {
+    "role": "P",
+    "lastname": "RAVAGLIA",
+    "firstname": "Federico",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/RAVAGLIA-F.png?v=130",
+    "id": "a4fb97ed-fef5-45fc-bca7-4f43dc7d9dda"
+  },
+  {
+    "role": "P",
+    "lastname": "REINA",
+    "firstname": "Pepe",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/REINA.png?v=130",
+    "id": "7f28d0ab-0c6f-4178-8a24-b9693d14d263"
+  },
+  {
+    "role": "P",
+    "lastname": "ROSSI",
+    "firstname": "Francesco",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/ROSSI-F.png?v=130",
+    "id": "f0d6131f-c27f-4b9e-a3de-4a4ca4f60b88"
+  },
+  {
+    "role": "P",
+    "lastname": "RUI",
+    "firstname": "PATRICIO",
+    "team": "Atalanta",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/RUI-PATRICIO.png?v=130",
+    "id": "0061e59b-fbfe-4d52-8960-564f4c3bfae1"
+  },
+  {
+    "role": "P",
+    "lastname": "RYAN",
+    "firstname": "Mathew",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/RYAN.png?v=130",
+    "id": "ca776c24-7ec5-4a1c-b6e6-6fa73f248e01"
+  },
+  {
+    "role": "P",
+    "lastname": "SAMOOJA",
+    "firstname": "Jasper",
+    "team": "Lecce",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SAMOOJA.png?v=130",
+    "id": "07cb2712-4f06-402b-b4bf-8533a3c78361"
+  },
+  {
+    "role": "P",
+    "lastname": "SAVA",
+    "firstname": "Razvan",
+    "team": "Udinese",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SAVA.png?v=130",
+    "id": "658ac45e-1657-4096-af7b-e40d20d3f2cb"
+  },
+  {
+    "role": "P",
+    "lastname": "SCUFFET",
+    "firstname": "Simone",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SCUFFET.png?v=130 ",
+    "id": "a2180cf2-94aa-4162-a450-26152c8fefcb"
+  },
+  {
+    "role": "P",
+    "lastname": "SHERRI",
+    "firstname": "Alen",
+    "team": "Cagliari",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SHERRI.png?v=130",
+    "id": "5e4fb3e2-ca59-48b0-86bf-6819020586dd"
+  },
+  {
+    "role": "P",
+    "lastname": "SKORUPSKI",
+    "firstname": "Lukasz",
+    "team": "Bologna",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SKORUPSKI.png?v=130",
+    "id": "c2deb8fa-520f-4c65-bde6-7b06e9779102"
+  },
+  {
+    "role": "P",
+    "lastname": "SOMMARIVA",
+    "firstname": "Daniele",
+    "team": "Genoa",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SOMMARIVA.png?v=130",
+    "id": "85cb587e-0f31-4487-a2fa-731d4751c312"
+  },
+  {
+    "role": "P",
+    "lastname": "SOMMER",
+    "firstname": "Yann",
+    "team": "Inter",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SOMMER.png?v=130",
+    "id": "645eb5af-8cf7-453c-868c-c0d6a55c6df2"
+  },
+  {
+    "role": "P",
+    "lastname": "SPORTIELLO",
+    "firstname": "Marco",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SPORTIELLO.png?v=130",
+    "id": "abf89f24-42a2-4c89-9ac6-dc61838c1d56"
+  },
+  {
+    "role": "P",
+    "lastname": "STANKOVIC",
+    "firstname": "Filip",
+    "team": "Venezia",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/STANKOVIC-F.png?v=130",
+    "id": "2d4d7e53-7929-4b05-b11e-1ec0b4c892b5"
+  },
+  {
+    "role": "P",
+    "lastname": "SUZUKI",
+    "firstname": "Zion",
+    "team": "Parma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SUZUKI.png?v=130",
+    "id": "47140bc2-9821-4c72-bb3c-a7f4660b6ef1"
+  },
+  {
+    "role": "P",
+    "lastname": "SVILAR",
+    "firstname": "Mile",
+    "team": "Roma",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/SVILAR.png?v=130",
+    "id": "f1ae933c-1a25-46fa-8ed3-107aa8f3978b"
+  },
+  {
+    "role": "P",
+    "lastname": "TERRACCIANO",
+    "firstname": "Pietro",
+    "team": "Fiorentina",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/TERRACCIANO.png?v=130",
+    "id": "895adaa8-465b-4b78-b95f-5e08d733fcdc"
+  },
+  {
+    "role": "P",
+    "lastname": "TORRIANI",
+    "firstname": "Lorenzo",
+    "team": "Milan",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/TORRIANI.png?v=130",
+    "id": "d4dce51e-3717-4038-ab6a-e6b52fb99ab3"
+  },
+  {
+    "role": "P",
+    "lastname": "TURATI",
+    "firstname": "Stefano",
+    "team": "Monza",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/TURATI.png?v=130",
+    "id": "543cf677-1565-4263-a6bf-e9d8f0ec250c"
+  },
+  {
+    "role": "P",
+    "lastname": "VASQUEZ",
+    "firstname": "Devis",
+    "team": "Empoli",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/VASQUEZ-D.png?v=130   ",
+    "id": "1f837b3d-fbd6-40f3-a72a-c7c68d003a02"
+  },
+  {
+    "role": "P",
+    "lastname": "VIGORITO",
+    "firstname": "Mauro",
+    "team": "Como",
+    "image": "https://content.fantacalcio.it/web/campioncini/card/VIGORITO.png?v=130",
+    "id": "6742064b-93a7-4e51-8e6e-ae1c5972d89e"
+  }
+]

@@ -15,7 +15,7 @@ export const RoleSelector = ({ className }: RoleSelectorProps) => {
 	};
 
 	return (
-		<div>
+		<div className={cn(className)}>
 			<div>
 				<Button
 					onClick={() => handleClick(Role.P)}
